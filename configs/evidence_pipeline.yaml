@@ -1,0 +1,32 @@
+# FROZEN FINAL SCIENTIFIC SETTINGS FOR THE PROFESSOR HANDOVER.
+# Changing the grouping method, similarity threshold, or representative cap is
+# a methodology change and requires a new frozen method version record.
+
+dataset_namespace: HOTELREC
+
+# Final semantic grouping decision (12 Aug 2026):
+# MiniLM embeddings -> cosine distance -> hotel-level complete-linkage
+# agglomerative clustering. A 0.80 similarity threshold corresponds to a
+# maximum complete-linkage cosine distance of 0.20.
+semantic_grouping_method: complete_linkage
+semantic_similarity_threshold: 0.80
+
+representatives_per_cluster: 3
+
+# Recorded for provenance only. Layer 1 uses no random number generator:
+# the frozen research sample is already defined and clustering is deterministic.
+random_seed: 20260725
+
+require_minilm_verified: true
+
+allowed_absa_methods:
+  - deberta_absa
+  - distilled_proxy
+  - none
+
+forbidden_dataset_names:
+  - booking
+  - ott
+  - maide
+  - synthetic
+  - attack

@@ -1,0 +1,42 @@
+{
+  "frozen_sample": {
+    "mapping_filename": "review_hotel_mapping.parquet",
+    "selected_hotel_count": 480,
+    "selected_review_count": 100111
+  },
+  "generated_utc": "2026-08-12T07:12:27.712484+00:00",
+  "hotel_completeness": {
+    "all_selected_reviews_present_in_locked_input": true,
+    "checked_against_locked_input": true,
+    "mismatched_hotel_count": 0,
+    "selected_hotel_count_checked": 480
+  },
+  "models_recorded_upstream": {
+    "absa_model": "yangheng/deberta-v3-base-absa-v1.1",
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "note": "Model identifiers are recorded from the research record; this package does not re-run or verify them.",
+    "verified_by_this_package": false
+  },
+  "note": "This frozen sample was extracted from the researcher's external locked artefacts. DeBERTa ABSA and MiniLM inference were performed upstream; this package reuses those verified precomputed outputs and does not regenerate them.",
+  "row_rebasing": {
+    "applied": true,
+    "description": "input_row_position and minilm_embedding_row re-based to 0..N-1 within the frozen sample",
+    "embedding_values_changed": false,
+    "originals_preserved_as": [
+      "source_input_row_position",
+      "source_minilm_embedding_row"
+    ],
+    "row_order_changed": false
+  },
+  "sample_definition_sha256": "4152e876313fa6ffa4cc1b9096d05a3ff5a531a9e917d63054246b6b0661a318",
+  "upstream_sources": {
+    "feature_index_filename": "hotelrec_v341_reusable_feature_index.parquet",
+    "feature_index_sha256": "af4ed0d06f4663477c2260ceea06f034a696d15d1df20e02f9121e198c4b6f3b",
+    "locked_input_filename": "hotelrec_500000_locked_v341_hf1.parquet",
+    "locked_input_sha256": "0b82441e9789147fdd06b043a04ee9f05984072b17f2ab25a9f0f71280168280",
+    "minilm_npz_filename": "emb_hotelrec.npz",
+    "minilm_npz_sha256": "64b0d42fc80b760f28c9dbc912b22dcb624d39d5eff02ca2beec850bb419f2d0",
+    "upstream_hotel_count": 2346,
+    "upstream_row_count": 500000
+  }
+}

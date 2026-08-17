@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Rubric-neutral HotelRec review evidence record",
+  "type": "object",
+  "required": ["source_dataset", "hotel_id", "review_id", "review_date", "rating", "review_text", "text_sha256", "input_row_position", "embedding_row", "embedding_verified", "absa_aspect", "absa_sentiment", "absa_confidence", "absa_method", "absa_reusable_status", "duplicate_group_id", "semantic_cluster_id"],
+  "properties": {
+    "source_dataset": {"const": "HOTELREC"}, "hotel_id": {"type": "string"}, "review_id": {"type": "string"}, "review_date": {}, "rating": {"type": ["number", "null"]}, "review_text": {"type": ["string", "null"]}, "text_sha256": {"type": "string"}, "input_row_position": {"type": "integer"}, "embedding_row": {"type": "integer"}, "embedding_verified": {"type": "boolean"}, "absa_aspect": {"type": "string"}, "absa_sentiment": {"type": "string"}, "absa_confidence": {"type": ["number", "null"]}, "absa_method": {"enum": ["deberta_absa", "distilled_proxy", "none"]}, "absa_reusable_status": {"enum": ["REAL_MODEL_REUSABLE", "PROXY_SEPARATE_ONLY", "NO_RESULT", "UNKNOWN"]}, "duplicate_group_id": {"type": "string"}, "semantic_cluster_id": {"type": "string"}
+  }
+}

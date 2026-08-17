@@ -1,0 +1,13 @@
+{
+  "extra_ids": [],
+  "matching_memberships": 100111,
+  "mismatching_memberships": 0,
+  "mismatching_review_id_examples": [],
+  "missing_ids": [],
+  "original_group_count": 83686,
+  "original_hotel_count": 480,
+  "refreshed_group_count": 83686,
+  "refreshed_hotel_count": 480,
+  "status": "PASS",
+  "total_review_ids_compared": 100111
+}

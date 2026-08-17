@@ -1,0 +1,76 @@
+{
+  "absa": {
+    "method_counts": {
+      "deberta_absa": 21187,
+      "distilled_proxy": 78776,
+      "none": 148
+    },
+    "method_shares": {
+      "deberta_absa": 0.21163508505558828,
+      "distilled_proxy": 0.7868865559229256,
+      "none": 0.0014783590214861504
+    },
+    "rows_with_non_empty_aspect": 21187,
+    "rows_with_non_null_confidence": 0
+  },
+  "checks": {
+    "absa_method_labels_consistent": true,
+    "dataset_scope_clean": true,
+    "embeddings_identical_order": true,
+    "hash_manifest_matches": true,
+    "hotel_set_matches_definition": true,
+    "required_columns_present": true,
+    "review_feature_fields_agree": true,
+    "review_hotel_mapping_identical_order": true,
+    "review_ids_unique": true,
+    "reviews_features_identical_order": true,
+    "row_counts_agree": true,
+    "row_indices_rebased_contiguously": true,
+    "sample_definition_hash_valid": true,
+    "text_hashes_match_text": true
+  },
+  "coverage": {
+    "date_max": "2019-05-10",
+    "date_min": "2001-11-01",
+    "exact_duplicate_text_rows": 4,
+    "mean_rating": 4.139225459739689,
+    "rows_with_duplicate_group_id": 0
+  },
+  "embeddings": {
+    "dtype": "float32",
+    "method": "sentence_transformers",
+    "shape": [
+      100111,
+      384
+    ]
+  },
+  "hash_verification": {
+    "files_checked": 6,
+    "hashes": {
+      "SOURCE_PROVENANCE.json": "8f2899cb760936db689c429dc3fd189348e3a04a665085c68cbfaba7aee20f8a",
+      "embeddings.npz": "6e9b78f6dd2df22c4fa542e8461ee467370e5ccf8bf00a6531f0d6186dcef2a9",
+      "features.parquet": "c88079c6f5f2b863e3cfce033d9d6d81f06dd665c1969aae677436089ceacb72",
+      "review_hotel_mapping.parquet": "e9e87396184492c69dd295fb8fc002868fa34ca0dd565e4d3a392dcc70b4956a",
+      "reviews.parquet": "7cf900acdefcb5c4df1315c69c3c43ce88ef2e2ac010e06c73ad7efa63e4138d",
+      "sample_definition.json": "3a481eba7dc9fb863c6c8e9f683891c1bdf8e6708666760195fd7b7e43e7cdb7"
+    },
+    "status": "PASS"
+  },
+  "row_counts": {
+    "declared_in_sample_definition": 100111,
+    "embeddings": 100111,
+    "features": 100111,
+    "hotels": 480,
+    "mapping": 100111,
+    "reviews": 100111
+  },
+  "sample_definition": {
+    "declared_hotel_count": 480,
+    "declared_review_count": 100111,
+    "sample_definition_sha256": "4152e876313fa6ffa4cc1b9096d05a3ff5a531a9e917d63054246b6b0661a318",
+    "seed": 20260812,
+    "target_reviews": 100000
+  },
+  "sample_dir": "data\\frozen_research_sample",
+  "status": "PASS"
+}

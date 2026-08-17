@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "truststay-layer1-evidence-engine"
+version = "2.1.0"
+description = "TrustStay Layer 1: rubric-neutral, traceable hotel review evidence preparation. Ends at the evidence dossier."
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=2.0",
+  "pandas>=2.2",
+  "pyarrow>=14",
+  "PyYAML>=6.0",
+  "scikit-learn>=1.4",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-ra"

@@ -1,0 +1,54 @@
+phase: 1B
+dataset_namespace: HOTELREC
+dataset_cutoff: '2019-05-13'
+claim_segmentation_version: regex_claim_v1
+claim_embedding_model: sentence-transformers/all-MiniLM-L6-v2
+claim_embedding_batch_size: 32
+claim_cluster_algorithm: agglomerative_average_cosine
+claim_similarity_threshold: 0.50
+claim_cluster_min_samples: 1
+representatives_per_major_cluster: 4
+major_cluster_min_claims: 2
+compact_display_max_major_clusters: 20
+compact_representatives_per_major_cluster: 1
+compact_issue_cluster_min_claims: 5
+random_seed: 20260725
+rare_case_max_cluster_claims: 3
+rare_case_negative_terms:
+  - filthy
+  - bed bug
+  - bedbug
+  - lock
+  - mold
+  - mould
+  - security
+  - unsafe
+  - theft
+  - wheelchair
+  - inaccessible
+  - unable to stay
+  - couldn't stay
+rare_case_disruption_terms:
+  - could not stay
+  - couldn't stay
+  - moved us
+  - relocated
+  - unable to stay
+  - cancellation
+  - cancelled
+rare_case_accessibility_terms:
+  - accessible
+  - wheelchair
+  - mobility
+rare_case_hygiene_terms:
+  - bed bug
+  - bedbug
+  - filthy
+  - mold
+  - mould
+  - dirty
+rare_case_security_terms:
+  - security
+  - lock
+  - unsafe
+  - theft

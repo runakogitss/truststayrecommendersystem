@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Rubric-neutral HotelRec hotel evidence dossier",
+  "type": "object",
+  "required": ["schema_version", "dataset_namespace", "hotel_id", "hotel_metadata", "temporal_summaries", "semantic_clusters", "absa_evidence", "review_evidence_records", "provenance", "methodology_notes", "warnings"],
+  "properties": {
+    "schema_version": {"type": "string"}, "dataset_namespace": {"const": "HOTELREC"}, "hotel_id": {"type": "string"}, "hotel_metadata": {"type": "object"}, "temporal_summaries": {"type": "object"}, "semantic_clusters": {"type": "array"}, "absa_evidence": {"type": "object"}, "review_evidence_records": {"type": "array"}, "provenance": {"type": "object"}, "methodology_notes": {"type": "object"}, "warnings": {"type": "array", "items": {"type": "string"}}
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "all_representatives_traceable": true,
+  "configured_similarity_threshold": 0.8,
+  "grouping_method": "complete_linkage_cosine",
+  "hotels": 480,
+  "interpretation_boundary": "Semantic grouping is topical organisation, not truth, recurrence, independence, deception, severity or hotel quality.",
+  "large_cluster_threshold_violations": 0,
+  "large_clusters_inspected": 47,
+  "largest_cluster_size": 19,
+  "low_rated_reviews_not_carried_into_compact": 10,
+  "low_rated_reviews_total": 10371,
+  "mean_compact_share_of_full": 1.034957,
+  "mean_reviews_per_cluster": 1.196269,
+  "singleton_clusters": 72911,
+  "singleton_share_of_reviews": 0.728302,
+  "total_clusters": 83686,
+  "total_reviews": 100111
+}

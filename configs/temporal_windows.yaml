@@ -1,0 +1,14 @@
+# Descriptive windows only. These are not calibrated definitions of recovery,
+# deterioration or recurrence.
+windows:
+  last_90_days: 90
+  last_180_days: 180
+  last_365_days: 365
+
+# Windows are anchored to the latest review date in the frozen dataset, never to
+# the execution date, so results do not change with the date of the rerun.
+anchor: hotel_latest_review_date
+
+periods:
+  - year
+  - quarter

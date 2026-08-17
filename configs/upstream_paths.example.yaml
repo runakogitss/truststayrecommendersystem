@@ -1,0 +1,11 @@
+# RESEARCHER-ONLY. The examiner never needs this file.
+# Used exclusively by scripts/export_frozen_sample.py to build
+# data/frozen_research_sample from the external locked artefacts.
+#
+# Relative paths resolve from THIS file's directory, never from the machine on
+# which the package was built. Copy to configs/upstream_paths.local.yaml.
+
+locked_input_path: ../external/hotelrec_500000_locked_v341_hf1.parquet
+feature_index_path: ../external/hotelrec_v341_reusable_feature_index.parquet
+minilm_npz_path: ../external/emb_hotelrec.npz
+verification_dir: ../external/verification
