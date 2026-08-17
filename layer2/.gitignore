@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+*.log
+.codex_tmp/
+layer2_outputs/
+full_dossiers/
+*.zip
+__pycache__/
+*.pyc

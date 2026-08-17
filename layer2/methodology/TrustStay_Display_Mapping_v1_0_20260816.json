@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "date": "2026-08-16",
+  "purpose": "Researcher-defined deterministic participant-facing translation applied after Layer 2 qualitative inference.",
+  "warning": "These values are display anchors, not interval-scale measurements, probabilities, recalculated guest-rating averages, or estimates of true hotel quality.",
+  "mapping": {
+    "A": {"upper": 5.0, "middle": 4.9, "lower": 4.8},
+    "B": {"upper": 4.7, "middle": 4.6, "lower": 4.5},
+    "C": {"upper": 4.4, "middle": 4.3, "lower": 4.2},
+    "D": {"upper": 4.1, "middle": 4.0, "lower": 3.9},
+    "E": {"upper": 3.8, "middle": 3.7, "lower": 3.6},
+    "F": {"upper": 3.4, "middle": 3.2, "lower": 3.0},
+    "G": {"upper": 2.8, "middle": 2.5, "lower": 2.2},
+    "H": {"upper": 1.9, "middle": 1.5, "lower": 1.0}
+  }
+}

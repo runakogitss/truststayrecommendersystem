@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "provider": "OpenCode Go",
+  "base_url": "https://opencode.ai/zen/go/v1",
+  "model": "gpt-5.6-luna",
+  "reasoning_effort": "medium",
+  "chunk_input_token_budget": 180000,
+  "chunk_max_output_tokens": 6000,
+  "final_max_output_tokens": 6000,
+  "request_timeout_seconds": 240,
+  "max_retries": 5,
+  "workers": 2,
+  "store": false,
+  "apply_display_mapping_after_validation": true,
+  "notes": [
+    "Fairmont Dallas is not added by this runner.",
+    "Every hotel uses the same two-stage process: chronological evidence-ledger extraction followed by rubric adjudication.",
+    "The LLM never receives the numeric display mapping."
+  ]
+}

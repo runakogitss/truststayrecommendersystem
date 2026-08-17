@@ -1,0 +1,13 @@
+{
+  "hotel_id": "Hotel_Review-g2213880-d2213072-Reviews-Gopeng_Rainforest_Resort-Gopeng_Kampar_District_Perak.html",
+  "source_dossier": "hotel_Hotel_Review-g2213880-d2213072-Reviews-Gopeng_Rainforest_Resort-Gopeng_Kampar_Di__e9d4c5a185de_full.json",
+  "state": "failed",
+  "layer2a_chunks_expected": 1,
+  "layer2a_chunks_complete": 1,
+  "layer2b_status": "in_progress",
+  "schema_validation_status": "pending",
+  "mapping_status": "pending",
+  "final_status": "failed",
+  "error": "ValueError: final assessment: cited review IDs absent from dossier: ['hotelrec_row_26238998']",
+  "reviews": 38
+}

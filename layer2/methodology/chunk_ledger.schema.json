@@ -1,0 +1,146 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "hotel_id",
+    "chunk_id",
+    "chunk_date_range",
+    "review_count",
+    "positive_evidence",
+    "concern_evidence",
+    "property_relevance_notes",
+    "within_chunk_pattern_notes",
+    "evidence_cautions"
+  ],
+  "properties": {
+    "hotel_id": {
+      "type": "string"
+    },
+    "chunk_id": {
+      "type": "string"
+    },
+    "chunk_date_range": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "start",
+        "end"
+      ],
+      "properties": {
+        "start": {
+          "type": "string"
+        },
+        "end": {
+          "type": "string"
+        }
+      }
+    },
+    "review_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "positive_evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "theme",
+          "evidence_summary",
+          "review_ids"
+        ],
+        "properties": {
+          "theme": {
+            "type": "string"
+          },
+          "evidence_summary": {
+            "type": "string"
+          },
+          "review_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1
+          }
+        }
+      }
+    },
+    "concern_evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "theme",
+          "evidence_summary",
+          "max_severity",
+          "max_stay_impact",
+          "resolution_status",
+          "review_ids"
+        ],
+        "properties": {
+          "theme": {
+            "type": "string"
+          },
+          "evidence_summary": {
+            "type": "string"
+          },
+          "max_severity": {
+            "type": "string",
+            "enum": [
+              "S1",
+              "S2",
+              "S3",
+              "S4"
+            ]
+          },
+          "max_stay_impact": {
+            "type": "string",
+            "enum": [
+              "I0",
+              "I1",
+              "I2",
+              "I3"
+            ]
+          },
+          "resolution_status": {
+            "type": "string",
+            "enum": [
+              "Resolved",
+              "Partly resolved",
+              "Unresolved",
+              "Unknown"
+            ]
+          },
+          "review_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1
+          }
+        }
+      }
+    },
+    "property_relevance_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "within_chunk_pattern_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence_cautions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

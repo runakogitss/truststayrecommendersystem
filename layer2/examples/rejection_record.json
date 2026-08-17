@@ -1,0 +1,11 @@
+{
+  "hotel_id": "Hotel_Review-g2213880-d2213072-Reviews-Gopeng_Rainforest_Resort-Gopeng_Kampar_District_Perak.html",
+  "source_review_count": 38,
+  "invalid_review_id": "hotelrec_row_26238998",
+  "invalid_review_id_present_in_source_dossier": false,
+  "raw_structured_output": "assessment_raw_structured.json",
+  "validator_error": "ValueError: final assessment: cited review IDs absent from dossier: ['hotelrec_row_26238998']",
+  "accepted_final_assessment_present": false,
+  "display_mapping_status": "pending",
+  "basis": "Machine-readable extract from the existing production manifest, production failure summary, source dossier, and preserved raw structured output. No assessment was regenerated."
+}

@@ -1,0 +1,13 @@
+{
+  "hotel_id": "Hotel_Review-g1022822-d1165587-Reviews-Kinosaki_Onsen_Nishimuraya_Honkan-Toyooka_Hyogo_Prefecture_Kinki.html",
+  "source_dossier": "hotel_Hotel_Review-g1022822-d1165587-Reviews-Kinosaki_Onsen_Nishimuraya_Honkan-Toyooka__504f53762656_full.json",
+  "state": "complete",
+  "layer2a_chunks_expected": 1,
+  "layer2a_chunks_complete": 1,
+  "layer2b_status": "complete",
+  "schema_validation_status": "valid",
+  "mapping_status": "complete",
+  "final_status": "complete",
+  "error": null,
+  "reviews": 129
+}

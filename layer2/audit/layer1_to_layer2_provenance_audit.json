@@ -1,0 +1,109 @@
+{
+  "audit_timestamp_utc": "2026-08-17T04:44:36Z",
+  "audit_method": "SHA-256 plus hotel_id matching, byte comparison, and canonicalized JSON comparison",
+  "files_modified": false,
+  "layer2_source_directory": "/Users/ritchierunako/Downloads/layer 2 run /TrustStay_Layer2_GPT56_Luna_100K/full_dossiers",
+  "candidate_original_directory": "/Users/ritchierunako/Documents/REVIEW CODE /outputs/frozen_research_run/full_dossiers",
+  "candidate_full_absa_directory": "/Users/ritchierunako/Documents/REVIEW CODE /outputs/frozen_research_run_full_absa/full_dossiers",
+  "layer2_input": {
+    "dossier_count": 480,
+    "unique_hotel_ids": 480,
+    "duplicate_hotel_ids": 0,
+    "total_review_evidence_records": 100111
+  },
+  "candidate_original": {
+    "dossier_count": 480,
+    "unique_hotel_ids": 480,
+    "duplicate_hotel_ids": 0,
+    "exact_matches": 0,
+    "same_hotel_nonidentical": 480,
+    "canonicalized_json_matches": 0,
+    "layer2_hotels_missing_from_candidate": 0,
+    "candidate_hotels_absent_from_layer2": 0,
+    "total_review_evidence_records": 100111,
+    "same_review_count": 480,
+    "same_review_id_set": 480,
+    "same_review_id_order": 480,
+    "same_review_text_order": 480,
+    "same_text_sha256_order": 480
+  },
+  "candidate_full_absa": {
+    "full_set_available": false,
+    "dossier_count": 0,
+    "unique_hotel_ids": 0,
+    "duplicate_hotel_ids": 0,
+    "exact_matches": 0,
+    "same_hotel_nonidentical": 0,
+    "canonicalized_json_matches": 0,
+    "layer2_hotels_missing_from_candidate": 480,
+    "candidate_hotels_absent_from_layer2": 0,
+    "total_review_evidence_records": 0,
+    "validation_status": "NOT RUN",
+    "note": "The expected full-ABSA directory is absent. Preserved full-ABSA artifacts are smoke tests only; FULL_ABSA_VALIDATION.md states the full refresh was not run."
+  },
+  "content_difference_summary_against_original": {
+    "material_difference": true,
+    "ordering_only": false,
+    "top_level_fields_differing_in_all_480": [
+      "absa_evidence",
+      "hotel_metadata",
+      "methodology_notes",
+      "provenance",
+      "review_evidence_records",
+      "semantic_clusters",
+      "temporal_summaries",
+      "warnings"
+    ],
+    "review_record_field_differences": {
+      "absa_sentiment": 98732,
+      "absa_aspect": 98618,
+      "absa_method": 78924,
+      "absa_reusable_status": 78924
+    },
+    "raw_review_content_result": "All 480 hotels have the same review count, review-ID set, review-ID order, review-text order, and text_sha256 order as Candidate A; derived ABSA and dossier metadata are materially different."
+  },
+  "representative_hashes": [
+    {
+      "hotel": "Kinosaki Onsen Nishimuraya Honkan",
+      "hotel_id": "Hotel_Review-g1022822-d1165587-Reviews-Kinosaki_Onsen_Nishimuraya_Honkan-Toyooka_Hyogo_Prefecture_Kinki.html",
+      "layer2_sha256": "6f9ed66671536385420e6ed242599b85366ffc0a6c54ab8be37a611d9755fb54",
+      "candidate_original_sha256": "ab9431be24ae1f515ffd753cae074b4463c9c52517b5730daf068433a1f2be19",
+      "candidate_full_absa_sha256": null,
+      "match": "same hotel, non-identical to Candidate A; Candidate B unavailable"
+    },
+    {
+      "hotel": "Gopeng Rainforest Resort",
+      "hotel_id": "Hotel_Review-g2213880-d2213072-Reviews-Gopeng_Rainforest_Resort-Gopeng_Kampar_District_Perak.html",
+      "layer2_sha256": "e57e63bf85a20f2af0acf74ac277bf529f5b7bdf7f885d9794b6b44276866554",
+      "candidate_original_sha256": "236a22f15ccbf7e49b65d8cbfedcd3d513a5ee0d007bd0caf9f5d4a072bf93ea",
+      "candidate_full_absa_sha256": null,
+      "match": "same hotel, non-identical to Candidate A; Candidate B unavailable"
+    },
+    {
+      "hotel": "Comfort Suites, Sioux Falls",
+      "hotel_id": "Hotel_Review-g54805-d104390-Reviews-Comfort_Suites-Sioux_Falls_South_Dakota.html",
+      "layer2_sha256": "1eee56c8f3bd22278ace6d6003c0f34215708303b3187ea4f3de101abd10a8be",
+      "candidate_original_sha256": "8c8ada8a43d751d49d6bc2bf81cc208163eb7d2f37567dd5ab7b12b691afe2a1",
+      "candidate_full_absa_sha256": null,
+      "match": "same hotel, non-identical to Candidate A; Candidate B unavailable"
+    },
+    {
+      "hotel": "Quality Inn O'Fallon",
+      "hotel_id": "Hotel_Review-g36467-d90452-Reviews-Quality_Inn_O_Fallon-O_Fallon_Illinois.html",
+      "layer2_sha256": "c09b06dfb9cac2bd9a60bc8289e076f7389aa1ab379b5c50df719b7cb0c6bda6",
+      "candidate_original_sha256": "425de4030c53994ef4ee312c4d3acb10f0096b78c764ffb11ef7d6c259c19ba5",
+      "candidate_full_absa_sha256": null,
+      "match": "same hotel, non-identical to Candidate A; Candidate B unavailable"
+    },
+    {
+      "hotel": "Long Ji One Hotel",
+      "hotel_id": "Hotel_Review-g1159371-d1524689-Reviews-Long_Ji_One_Hotel-Longsheng_County_Guangxi.html",
+      "layer2_sha256": "8461f9f7e677916536cd98d4a4f0d6989a201b90aad60d8d52ecca5d27d751af",
+      "candidate_original_sha256": "8f196972c3839c93645c0e5db55760a9ac9286af53ca4bc874bc2e333dac6b59",
+      "candidate_full_absa_sha256": null,
+      "match": "same hotel, non-identical to Candidate A; Candidate B unavailable"
+    }
+  ],
+  "conclusion_code": "D",
+  "conclusion": "NOT ESTABLISHED FROM AVAILABLE ARTIFACTS: Layer 2 source dossiers do not exactly correspond to either preserved Layer 1 set. They are materially different from the preserved original set, while the expected 480-dossier full-ABSA set is not present and its validation record states that the full refresh was not run."
+}

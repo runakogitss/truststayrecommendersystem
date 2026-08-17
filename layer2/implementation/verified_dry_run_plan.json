@@ -1,0 +1,2417 @@
+{
+  "hotels": 480,
+  "reviews": 100111,
+  "layer2a_chunk_calls": 549,
+  "layer2b_final_calls": 480,
+  "total_expected_api_calls": 1029,
+  "max_chunks_for_one_hotel": 9,
+  "max_reviews_for_one_hotel": 3862,
+  "chunk_input_token_budget": 180000,
+  "note": "Call count is exact for the current chunking plan. Cost is not estimated here because actual output size and cache hits materially affect OpenCode Go usage.",
+  "hotels_plan": [
+    {
+      "hotel_id": "Hotel_Review-g1022822-d1165587-Reviews-Kinosaki_Onsen_Nishimuraya_Honkan-Toyooka_Hyogo_Prefecture_Kinki.html",
+      "reviews": 129,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1024017-d1951629-Reviews-Lantern_Cottage_Bed_Breakfast-Hassocks_West_Sussex_England.html",
+      "reviews": 46,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1025639-d1137568-Reviews-The_Setsumon-Kutchan_cho_Abuta_gun_Hokkaido.html",
+      "reviews": 45,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g10456715-d1812920-Reviews-Grand_Belish_Hotel-Guzelcamli_Kusadasi_Turkish_Aegean_Coast.html",
+      "reviews": 129,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1047581-d1045291-Reviews-Hotel_Villa_Sur-Huetor_Vega_Province_of_Granada_Andalucia.html",
+      "reviews": 41,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1047925-d5953703-Reviews-Naf_Beach_Hotel-Mtwara_Mtwara_Region.html",
+      "reviews": 31,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1053705-d1499974-Reviews-Hotel_Circle_Inn-Ramstein_Miesenbach_Rhineland_Palatinate.html",
+      "reviews": 83,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1066446-d1089712-Reviews-FLEXSTAY_INN_Tokiwadai-Itabashi_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "reviews": 30,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1071666-d1673817-Reviews-Bunaken_Island_Resort-Bunaken_Island_Manado_North_Sulawesi_Sulawesi.html",
+      "reviews": 98,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1073595-d4889748-Reviews-Ionian_Eye_Studios-Messonghi_Corfu_Ionian_Islands.html",
+      "reviews": 79,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1077139-d191803-Reviews-Haley_s_Hotel_and_Restaurant-Headingley_Leeds_West_Yorkshire_England.html",
+      "reviews": 510,
+      "chunks": 2
+    },
+    {
+      "hotel_id": "Hotel_Review-g1077139-d275701-Reviews-Headingley_Lodge-Headingley_Leeds_West_Yorkshire_England.html",
+      "reviews": 399,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1080023-d491795-Reviews-Capo_d_Orto_Hotel-Porto_Ota_Corse_du_Sud_Corsica.html",
+      "reviews": 43,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1092542-d1061096-Reviews-Hotel_Arthur-Solignano_Nuovo_Province_of_Modena_Emilia_Romagna.html",
+      "reviews": 40,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1096757-d3870373-Reviews-Breck_Poulton_le_Fylde-Poulton_Le_Fylde_Wyre_District_Lancashire_England.html",
+      "reviews": 320,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1136516-d1469257-Reviews-Paradise_Inn_Suites-Valleyview_Alberta.html",
+      "reviews": 75,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1152719-d10716221-Reviews-Hotel_Natraj_International-Patnitop_Udhampur_District_Jammu_Jammu_and_Kashmir.html",
+      "reviews": 80,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1152743-d2465564-Reviews-Banyan_Bay_Villas-Ko_Jum_Krabi_Province.html",
+      "reviews": 53,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1159371-d1524689-Reviews-Long_Ji_One_Hotel-Longsheng_County_Guangxi.html",
+      "reviews": 153,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1162528-d1817953-Reviews-Gharwal_Mandal_Vikas_Nigam-Rudra_Prayag_Rudraprayag_District_Uttarakhand.html",
+      "reviews": 58,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1182535-d969710-Reviews-Mount_Cinnamon_Resort_Beach_Club-Grand_Anse_South_Coast_Saint_George_Parish_Grenada.html",
+      "reviews": 800,
+      "chunks": 3
+    },
+    {
+      "hotel_id": "Hotel_Review-g1185722-d8085460-Reviews-Coconut_Beach_Resort-Tavewa_Island_Yasawa_Islands.html",
+      "reviews": 165,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1187623-d1427158-Reviews-Villa_Le_Grand_Bleu-Katapola_Amorgos_Cyclades_South_Aegean.html",
+      "reviews": 62,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1188994-d7257705-Reviews-Hotel_Rivinka-Kataragama_Uva_Province.html",
+      "reviews": 41,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1190444-d4946371-Reviews-Ydreos_Studios_and_Apartments-Mikri_Vigla_Naxos_Cyclades_South_Aegean.html",
+      "reviews": 119,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1210025-d729714-Reviews-Runswick_Bay_Hotel-Runswick_North_Yorkshire_England.html",
+      "reviews": 274,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1226376-d631517-Reviews-La_Posada_de_Alajar-Alajar_Sierra_de_Aracena_and_Picos_de_Aroche_Natural_Park_Province.html",
+      "reviews": 62,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1370797-d2648926-Reviews-Thelma_and_Toby_s_Island_Camping_Adventure-Port_Barton_San_Vicente_Palawan_Island_Pal.html",
+      "reviews": 106,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1379324-d5415230-Reviews-U_Zenmaya_Phuket-Kamala_Kathu_Phuket.html",
+      "reviews": 737,
+      "chunks": 2
+    },
+    {
+      "hotel_id": "Hotel_Review-g1380108-d1379463-Reviews-Le_Grande_Bali-Pecatu_Nusa_Dua_Peninsula_Bali.html",
+      "reviews": 355,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g13808853-d12419761-Reviews-CitizenM_Taipei_North_Gate-Zhongzheng_District_Taipei.html",
+      "reviews": 316,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1444462-d1847713-Reviews-Flores_Hotel_Inatel-Santa_Cruz_das_Flores_Flores_Azores.html",
+      "reviews": 56,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1468291-d615539-Reviews-Dionysos_Hotel-Kumlubuk_Marmaris_District_Mugla_Province_Turkish_Aegean_Coast.html",
+      "reviews": 190,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g147273-d952129-Reviews-Hotel_Versalles-Santiago_de_Cuba_Santiago_de_Cuba_Province_Cuba.html",
+      "reviews": 54,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g147311-d251583-Reviews-Palm_View_Guest_House_Conference_Center-Montego_Bay_Saint_James_Parish_Jamaica.html",
+      "reviews": 39,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g147366-d581874-Reviews-Annie_s_Place-George_Town_Grand_Cayman_Cayman_Islands.html",
+      "reviews": 55,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g147397-d1017580-Reviews-Manta_House-Cockburn_Town_Grand_Turk_Turks_and_Caicos.html",
+      "reviews": 107,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1498192-d4506814-Reviews-Pathway_to_Peace_Bed_and_Breakfast_is_no_longer_in_operation-Mindemoya_Manitoulin_Isl.html",
+      "reviews": 60,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g150771-d531630-Reviews-Las_Gaviotas_Resort-La_Paz_Baja_California.html",
+      "reviews": 170,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g150801-d1380796-Reviews-Estancia_de_Valencia-Oaxaca_Southern_Mexico.html",
+      "reviews": 54,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g150811-d3727058-Reviews-Mansion_Merida_on_the_Park-Merida_Yucatan_Peninsula.html",
+      "reviews": 113,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g150812-d13189438-Reviews-Hotel_Xcaret_Mexico-Playa_del_Carmen_Yucatan_Peninsula.html",
+      "reviews": 2053,
+      "chunks": 8
+    },
+    {
+      "hotel_id": "Hotel_Review-g150812-d1483372-Reviews-Hotel_Club_Yebo-Playa_del_Carmen_Yucatan_Peninsula.html",
+      "reviews": 247,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1547037-d650510-Reviews-The_Manor_House_Hotel-Dronfield_Derbyshire_England.html",
+      "reviews": 238,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g154913-d183865-Reviews-Comfort_Inn_Suites_Calgary_Airport-Calgary_Alberta.html",
+      "reviews": 326,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g154932-d1518973-Reviews-Fortune_Motel-Kamloops_British_Columbia.html",
+      "reviews": 48,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g154948-d185268-Reviews-Lost_Lake_Lodge-Whistler_British_Columbia.html",
+      "reviews": 134,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g155012-d185259-Reviews-Delta_Hotels_by_Marriott_Sault_Ste_Marie_Waterfront-Sault_Ste_Marie_Northeastern_Ontari.html",
+      "reviews": 585,
+      "chunks": 2
+    },
+    {
+      "hotel_id": "Hotel_Review-g155021-d1391471-Reviews-Bestway_Motel-Windsor_Ontario.html",
+      "reviews": 33,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1566559-d2048973-Reviews-Casa_Villatalla-Dolceacqua_Province_of_Imperia_Liguria.html",
+      "reviews": 53,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1574648-d253718-Reviews-Patmos_Paradise_Hotel-Kambos_Patmos_Dodecanese_South_Aegean.html",
+      "reviews": 51,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1575070-d1606204-Reviews-Agri_Hotel_Da_Marianna-Santa_Domenica_Vittoria_Province_of_Messina_Sicily.html",
+      "reviews": 47,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1584758-d8313624-Reviews-Bamboo_House-Banlung_Ratanakiri_Province.html",
+      "reviews": 31,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1584815-d1626092-Reviews-Hotel_Golden_Apple_Kalpa-Kalpa_Kinnaur_District_Himachal_Pradesh.html",
+      "reviews": 80,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1725142-d1723872-Reviews-Hotel_Punta_Chame_Villas-Punta_Chame_Panama_Province.html",
+      "reviews": 48,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1759932-d1757545-Reviews-Pippi_s_at_the_Point-Speers_Point_Lake_Macquarie_Greater_Newcastle_New_South_Wales.html",
+      "reviews": 79,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1788353-d317019-Reviews-Socrates_Plaza_Hotel-Skala_Prinou_Thasos_Northeast_Aegean_Islands.html",
+      "reviews": 450,
+      "chunks": 2
+    },
+    {
+      "hotel_id": "Hotel_Review-g1791032-d7389120-Reviews-Isabela_Zen_Hotel-Santiago_City_Iloilo_Province_Panay_Island_Visayas.html",
+      "reviews": 36,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g181749-d182032-Reviews-Clarion_Lakeside_Inn_and_Conference_Centre-Kenora_Kenora_District_Ontario.html",
+      "reviews": 379,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1820355-d3840337-Reviews-Koh_Mook_Coco_Lodge-Ko_Muk_Kantang_District_Trang_Province.html",
+      "reviews": 90,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g186240-d1862352-Reviews-Elmsdale_Guest_House-Penzance_Cornwall_England.html",
+      "reviews": 137,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g186240-d294657-Reviews-Whiteways_Guest_House-Penzance_Cornwall_England.html",
+      "reviews": 80,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g186240-d594627-Reviews-Chy_an_Mor-Penzance_Cornwall_England.html",
+      "reviews": 391,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g186245-d645512-Reviews-Bosayne_Guest_House-Tintagel_Cornwall_England.html",
+      "reviews": 229,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g186259-d191730-Reviews-Acorn_Lodge_Hotel_Torquay-Torquay_English_Riviera_Devon_England.html",
+      "reviews": 161,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g186277-d10417496-Reviews-Buckle_Holiday_Park-Seaford_East_Sussex_England.html",
+      "reviews": 31,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g186300-d192174-Reviews-Lainston_House_Hotel-Winchester_Hampshire_England.html",
+      "reviews": 1324,
+      "chunks": 4
+    },
+    {
+      "hotel_id": "Hotel_Review-g186326-d1014099-Reviews-Station_Inn_Oxenholme-Kendal_Lake_District_Cumbria_England.html",
+      "reviews": 227,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g186328-d617305-Reviews-Bank_House_Bed_and_Breakfast-Penrith_Eden_District_Lake_District_Cumbria_England.html",
+      "reviews": 241,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g186332-d1154135-Reviews-Manhattan_Hotel-Blackpool_Lancashire_England.html",
+      "reviews": 75,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g186332-d1216914-Reviews-The_Lanes-Blackpool_Lancashire_England.html",
+      "reviews": 67,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g186332-d1568264-Reviews-Number_42-Blackpool_Lancashire_England.html",
+      "reviews": 93,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g186338-d1629798-Reviews-Oakley_Hotel-London_England.html",
+      "reviews": 65,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g186338-d7333847-Reviews-City_Marque_Spitalfields_Serviced_Apartments-London_England.html",
+      "reviews": 55,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g186362-d8631433-Reviews-The_Woodstock_Arms-Woodstock_Oxfordshire_England.html",
+      "reviews": 85,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g186366-d1222485-Reviews-Meadow_Inn_Steakhouse-Ironbridge_Ironbridge_Gorge_Telford_Shropshire_England.html",
+      "reviews": 287,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g186370-d5776707-Reviews-Premier_Inn_Bath_City_Centre_Hotel-Bath_Somerset_England.html",
+      "reviews": 1960,
+      "chunks": 4
+    },
+    {
+      "hotel_id": "Hotel_Review-g186378-d245329-Reviews-Best_Western_Stoke_East-Stoke_on_Trent_Staffordshire_England.html",
+      "reviews": 441,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g186402-d570118-Reviews-Premier_Inn_Birmingham_Nec_Airport_Hotel-Birmingham_West_Midlands_England.html",
+      "reviews": 2573,
+      "chunks": 5
+    },
+    {
+      "hotel_id": "Hotel_Review-g186543-d282228-Reviews-Craigiewood-Inverness_Scottish_Highlands_Scotland.html",
+      "reviews": 103,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g186545-d1197984-Reviews-Laurel_Bank_Lodge-Fort_William_Lochaber_Scottish_Highlands_Scotland.html",
+      "reviews": 132,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g186599-d1087988-Reviews-Claragh_B_B-Blarney_County_Cork.html",
+      "reviews": 30,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g186609-d632042-Reviews-Arus_Grattan_Apartments-Galway_County_Galway_Western_Ireland.html",
+      "reviews": 68,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187046-d1195073-Reviews-Ashwood_House-Harrogate_North_Yorkshire_England.html",
+      "reviews": 91,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187047-d191657-Reviews-New_County_Hotel_by_Roomsbooked-Gloucester_Cotswolds_England.html",
+      "reviews": 427,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187069-d285653-Reviews-Travelodge_Manchester_Ancoats-Manchester_Greater_Manchester_England.html",
+      "reviews": 902,
+      "chunks": 2
+    },
+    {
+      "hotel_id": "Hotel_Review-g187103-d289303-Reviews-Hotel_Anne_de_Bretagne-Rennes_Ille_et_Vilaine_Brittany.html",
+      "reviews": 77,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187104-d6509724-Reviews-Villa_Saint_Raphael_Bed_and_Breakfast-Saint_Malo_Ille_et_Vilaine_Brittany.html",
+      "reviews": 54,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187104-d7216604-Reviews-Ibis_Styles_St_Malo_Port-Saint_Malo_Ille_et_Vilaine_Brittany.html",
+      "reviews": 157,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187147-d195458-Reviews-Hotel_de_Sully-Paris_Ile_de_France.html",
+      "reviews": 59,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187147-d295557-Reviews-Hotel_Helios_Opera-Paris_Ile_de_France.html",
+      "reviews": 128,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187162-d7180467-Reviews-Aparthotel_Adagio_Access_Nancy_Centre-Nancy_Meurthe_et_Moselle_Grand_Est.html",
+      "reviews": 49,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187198-d1539492-Reviews-Quality_Suites_Nantes_Beaujoire-Nantes_Loire_Atlantique_Pays_de_la_Loire.html",
+      "reviews": 35,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187231-d1596690-Reviews-La_Petite_Maison-Menton_French_Riviera_Cote_d_Azur_Provence_Alpes_Cote_d_Azur.html",
+      "reviews": 54,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187309-d2038715-Reviews-Motel_One_Munchen_Garching-Munich_Upper_Bavaria_Bavaria.html",
+      "reviews": 70,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187323-d662530-Reviews-Motel_One_Berlin_Hackescher_Markt-Berlin.html",
+      "reviews": 351,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187337-d6591101-Reviews-Element_Frankfurt_Airport-Frankfurt_Hesse.html",
+      "reviews": 181,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187367-d405244-Reviews-Novotel_Aachen_City-Aachen_North_Rhine_Westphalia.html",
+      "reviews": 403,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187374-d234187-Reviews-Hotel_Conti_Duisburg-Duisburg_North_Rhine_Westphalia.html",
+      "reviews": 48,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187472-d238897-Reviews-AC_Hotel_Iberia_Las_Palmas-Las_Palmas_de_Gran_Canaria_Gran_Canaria_Canary_Islands.html",
+      "reviews": 192,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187497-d1841103-Reviews-Dailyflats_Barcelona_Center-Barcelona_Catalonia.html",
+      "reviews": 164,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187497-d228546-Reviews-Hotel_Catalonia_Castellnou-Barcelona_Catalonia.html",
+      "reviews": 129,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187791-d1742207-Reviews-Park_Hotel_Ginevra-Rome_Lazio.html",
+      "reviews": 102,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187791-d1808428-Reviews-Casa_Pariolina-Rome_Lazio.html",
+      "reviews": 44,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187791-d2435263-Reviews-Trevi_Palace_Luxury_Inn-Rome_Lazio.html",
+      "reviews": 336,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187791-d288428-Reviews-New_Morpheus_Rooms-Rome_Lazio.html",
+      "reviews": 133,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187791-d560480-Reviews-Hotel_Martini-Rome_Lazio.html",
+      "reviews": 93,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187791-d632879-Reviews-Funny_Palace-Rome_Lazio.html",
+      "reviews": 161,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187791-d7160918-Reviews-Tree_Charme-Rome_Lazio.html",
+      "reviews": 70,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187801-d582419-Reviews-AC_Hotel_Bologna_by_Marriott-Bologna_Province_of_Bologna_Emilia_Romagna.html",
+      "reviews": 276,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187806-d632081-Reviews-Casa_Masoli-Ravenna_Province_of_Ravenna_Emilia_Romagna.html",
+      "reviews": 150,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187849-d1607126-Reviews-Hotel_Gala-Milan_Lombardy.html",
+      "reviews": 56,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187849-d281811-Reviews-Holiday_Inn_Milan_Garibaldi_Station-Milan_Lombardy.html",
+      "reviews": 434,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187849-d3863490-Reviews-Magna_Pars_Suites-Milan_Lombardy.html",
+      "reviews": 208,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187870-d12579192-Reviews-Rosa_Salva_Hotel-Venice_Veneto.html",
+      "reviews": 245,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187870-d1817986-Reviews-Le_Guglie_Bed_Breakfast-Venice_Veneto.html",
+      "reviews": 32,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187870-d2261136-Reviews-Kosher_House_Giardino_Dei_Melograni-Venice_Veneto.html",
+      "reviews": 103,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187870-d320868-Reviews-Casa_Pisani_Canal-Venice_Veneto.html",
+      "reviews": 61,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187870-d482188-Reviews-Locanda_Ca_del_Console-Venice_Veneto.html",
+      "reviews": 118,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187871-d205693-Reviews-Hotel_Leopardi-Verona_Province_of_Verona_Veneto.html",
+      "reviews": 155,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g187899-d2344106-Reviews-Hostel_Pisa_Tower-Pisa_Province_of_Pisa_Tuscany.html",
+      "reviews": 90,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g188063-d291761-Reviews-Hotel_Hoheneck-Engelberg_Canton_of_Obwalden.html",
+      "reviews": 59,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g188636-d3139202-Reviews-B_B_Guesthouse_Leman-Antwerp_Antwerp_Province.html",
+      "reviews": 61,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g188666-d1153434-Reviews-Logidenri-Ghent_East_Flanders_Province.html",
+      "reviews": 59,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g188671-d2339626-Reviews-Russell_House_B_B-Bruges_West_Flanders_Province.html",
+      "reviews": 32,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g189175-d1465910-Reviews-Vila_Gale_Collection_Douro-Lamego_Viseu_District_Northern_Portugal.html",
+      "reviews": 30,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g189180-d614475-Reviews-AC_Hotel_Porto-Porto_Porto_District_Northern_Portugal.html",
+      "reviews": 221,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g189180-d6226973-Reviews-B_The_Guest-Porto_Porto_District_Northern_Portugal.html",
+      "reviews": 200,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g189458-d735657-Reviews-Annaliza_Aparthotel-Corfu_Ionian_Islands.html",
+      "reviews": 176,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g189934-d227279-Reviews-Hotel_Haaga_Central_Park-Helsinki_Uusimaa.html",
+      "reviews": 197,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g190379-d10150156-Reviews-Rise_Hotel-Larnaca_Larnaka_District.html",
+      "reviews": 353,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g190384-d1601892-Reviews-Sea_Point_Villas-Paphos_Paphos_District.html",
+      "reviews": 146,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g190730-d279811-Reviews-Taunton_House_Hotel-Taunton_Somerset_England.html",
+      "reviews": 235,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g190733-d1785352-Reviews-Clarendon_Lodge-Skegness_Lincolnshire_England.html",
+      "reviews": 123,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g190733-d193827-Reviews-Oakley_Guest_House-Skegness_Lincolnshire_England.html",
+      "reviews": 44,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g190745-d8486982-Reviews-Oakley_Farm_Caravan_Park-Newbury_Berkshire_England.html",
+      "reviews": 32,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g190756-d633960-Reviews-The_Smithy-Buxton_Derbyshire_England.html",
+      "reviews": 46,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g190790-d1200228-Reviews-Netherfield_Bed_and_Breakfast-Grantown_on_Spey_Aviemore_and_the_Cairngorms_Scottish_Hi.html",
+      "reviews": 81,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g190815-d1143150-Reviews-Brow_Farm_Bed_Breakfast-Appleby_in_Westmorland_Eden_District_Lake_District_Cumbria_Eng.html",
+      "reviews": 43,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g194673-d292793-Reviews-Villa_Cilnia-Arezzo_Province_of_Arezzo_Tuscany.html",
+      "reviews": 33,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g194683-d314762-Reviews-Beatrix_Apartments-Bardolino_Province_of_Verona_Veneto.html",
+      "reviews": 34,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g194745-d291688-Reviews-Hotel_Meuble_Villa_Neve-Cortina_d_Ampezzo_Province_of_Belluno_Veneto.html",
+      "reviews": 103,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g194863-d496838-Reviews-Royal_Prisco_Hotel-Positano_Amalfi_Coast_Province_of_Salerno_Campania.html",
+      "reviews": 307,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g196587-d5598373-Reviews-Residhome_Roissy_Park-Roissy_en_France_Val_d_Oise_Ile_de_France.html",
+      "reviews": 114,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1967793-d2194548-Reviews-Surf_With_Amigas_Women_s_Surf_and_Yoga_Retreat-Chinandega_Chinandega_Department.html",
+      "reviews": 160,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g1982745-d6898592-Reviews-Bobby_Shafto_Caravan_Park-Beamish_County_Durham_England.html",
+      "reviews": 109,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g2018261-d231126-Reviews-Big_Bear_Frontier-Big_Bear_Lake_Big_Bear_Region_California.html",
+      "reviews": 430,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g207359-d7741629-Reviews-Riders_Refuge_Chalet_l_Herens-Morzine_Portes_du_Soleil_Haute_Savoie_Auvergne_Rhone_Alp.html",
+      "reviews": 49,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g207359-d8704708-Reviews-Stag_Lodge-Morzine_Portes_du_Soleil_Haute_Savoie_Auvergne_Rhone_Alpes.html",
+      "reviews": 34,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g209966-d2302339-Reviews-21_Park_Lane-Corsham_Wiltshire_England.html",
+      "reviews": 44,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g211863-d213094-Reviews-The_Mayfly_Hotel-Foxford_County_Mayo_Western_Ireland.html",
+      "reviews": 108,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g212524-d2513468-Reviews-Walter_Raleigh_Hotel-Youghal_County_Cork.html",
+      "reviews": 417,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g212525-d663768-Reviews-Cloneen_Bed_Breakfast-Tramore_County_Waterford.html",
+      "reviews": 191,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g2138953-d1011268-Reviews-Priory_Cottage_Bed_Breakfast-Hinton_Charterhouse_Bath_Somerset_England.html",
+      "reviews": 59,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g2151505-d293309-Reviews-Bird_s_Eye_View_Lodge-Crooked_Tree_Belize_District.html",
+      "reviews": 166,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g2213880-d2213072-Reviews-Gopeng_Rainforest_Resort-Gopeng_Kampar_District_Perak.html",
+      "reviews": 38,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g227884-d1226585-Reviews-Avra_Apartments-Lindos_Rhodes_Dodecanese_South_Aegean.html",
+      "reviews": 111,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g227884-d670071-Reviews-Krana_Apartments-Lindos_Rhodes_Dodecanese_South_Aegean.html",
+      "reviews": 200,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g2287416-d10120953-Reviews-Shreebag_Homestay_Diveagar-Diveagar_Maharashtra.html",
+      "reviews": 201,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g2368249-d1743122-Reviews-Termas_de_Jahuel_Hotel_Spa-San_Felipe_Valparaiso_Region.html",
+      "reviews": 48,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g2371802-d12486942-Reviews-Brindhavan_Homestay-Sakleshpur_Hassan_District_Karnataka.html",
+      "reviews": 40,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g2422978-d660156-Reviews-Bruny_Island_Explorers_Cottages-Lunawanna_Bruny_Island_Tasmania.html",
+      "reviews": 63,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g2424731-d8707953-Reviews-Parvati_Woods_Cottage-Kasol_Kullu_District_Himachal_Pradesh.html",
+      "reviews": 48,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g255070-d1567949-Reviews-Port_Douglas_Motel-Port_Douglas_Queensland.html",
+      "reviews": 704,
+      "chunks": 2
+    },
+    {
+      "hotel_id": "Hotel_Review-g255097-d289590-Reviews-Quest_Waterfront-Hobart_Greater_Hobart_Tasmania.html",
+      "reviews": 545,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g255108-d633829-Reviews-Camelot_On_Ulster-Hamilton_Waikato_Region_North_Island.html",
+      "reviews": 312,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g255109-d1187064-Reviews-Ace_High_Motor_Inn-Napier_Hawke_s_Bay_Region_North_Island.html",
+      "reviews": 43,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g255109-d255629-Reviews-Quality_Inn_Napier_Travel-Napier_Hawke_s_Bay_Region_North_Island.html",
+      "reviews": 313,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g255111-d1116313-Reviews-Spa_Lodge-Rotorua_Rotorua_District_Bay_of_Plenty_Region_North_Island.html",
+      "reviews": 75,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g255111-d1828995-Reviews-Doolan_s_Country_Retreat-Rotorua_Rotorua_District_Bay_of_Plenty_Region_North_Island.html",
+      "reviews": 303,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g255114-d3321114-Reviews-18th_Avenue_Thermal_Motel-Tauranga_Bay_of_Plenty_Region_North_Island.html",
+      "reviews": 50,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g255119-d4998126-Reviews-Larnach_Castle_Stables-Dunedin_Otago_Region_South_Island.html",
+      "reviews": 93,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g255362-d1118160-Reviews-Century_Inn-Traralgon_Gippsland_Victoria.html",
+      "reviews": 174,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g255371-d1188341-Reviews-Kensington_Motel-Whangarei_Northland_Region_North_Island.html",
+      "reviews": 64,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g261631-d1238072-Reviews-Edgewater_Motel-Ulladulla_Shoalhaven_New_South_Wales.html",
+      "reviews": 53,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g2664634-d4995450-Reviews-Holiday_Haven_Lake_Conjola-Lake_Conjola_Shoalhaven_New_South_Wales.html",
+      "reviews": 209,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g2667806-d292916-Reviews-Corfu_Glyfada_Beach_Menigos_Resort-Glyfada_Corfu_Ionian_Islands.html",
+      "reviews": 61,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g274707-d678419-Reviews-Clarion_Congress_Hotel_Prague-Prague_Bohemia.html",
+      "reviews": 712,
+      "chunks": 2
+    },
+    {
+      "hotel_id": "Hotel_Review-g274725-d3251735-Reviews-3City_Hostel-Gdansk_Pomerania_Province_Northern_Poland.html",
+      "reviews": 40,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g274812-d603808-Reviews-Wieniawa_Hotel-Wroclaw_Lower_Silesia_Province_Southern_Poland.html",
+      "reviews": 39,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g274818-d284571-Reviews-IBB_Grand_Hotel_Lublinianka-Lublin_Lublin_Province_Eastern_Poland.html",
+      "reviews": 191,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g293732-d11953047-Reviews-Le_Casablanca_Hotel-Casablanca_Grand_Casablanca_Region.html",
+      "reviews": 97,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g293734-d1516704-Reviews-Riad_Agathe-Marrakech_Marrakech_Tensift_El_Haouz_Region.html",
+      "reviews": 40,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g293734-d595346-Reviews-Riad_les_Oliviers-Marrakech_Marrakech_Tensift_El_Haouz_Region.html",
+      "reviews": 32,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g293735-d3594882-Reviews-Ryad_Bab_Berdaine-Meknes_Meknes_Tafilalet_Region.html",
+      "reviews": 49,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g293890-d4816605-Reviews-Stupa_Guest_House_and_Restaurant-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Regio.html",
+      "reviews": 143,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g293891-d2662485-Reviews-Hotel_Sakura-Pokhara_Gandaki_Zone_Western_Region.html",
+      "reviews": 44,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g293916-d11022501-Reviews-Hansa_Bangkok_House-Bangkok.html",
+      "reviews": 32,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g293916-d2664263-Reviews-Nest_Boutique_Resort-Bangkok.html",
+      "reviews": 199,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g293916-d3800423-Reviews-S_M_Grande_Residence-Bangkok.html",
+      "reviews": 44,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g293916-d850393-Reviews-Mango_Lagoon_Place-Bangkok.html",
+      "reviews": 76,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g293917-d557939-Reviews-People_Place_1st_Building-Chiang_Mai.html",
+      "reviews": 60,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g293917-d660416-Reviews-Buri_Gallery_House-Chiang_Mai.html",
+      "reviews": 290,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g293919-d10798141-Reviews-Mike_Hotel-Pattaya_Chonburi_Province.html",
+      "reviews": 36,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g293926-d625203-Reviews-Alba_Spa_Hotel-Hue_Thua_Thien_Hue_Province.html",
+      "reviews": 498,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g293928-d1109000-Reviews-White_Sand_Doclet_Resort_Spa-Nha_Trang_Khanh_Hoa_Province.html",
+      "reviews": 52,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g293934-d5029655-Reviews-Staybridge_Suites_Baku-Baku_Absheron_Region.html",
+      "reviews": 107,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g293938-d308355-Reviews-The_Brunei_Hotel-Bandar_Seri_Begawan_Brunei_Muara_District.html",
+      "reviews": 329,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g293950-d1648066-Reviews-Souphaphone_Guesthouse-Vientiane_Vientiane_Prefecture.html",
+      "reviews": 122,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g293974-d294914-Reviews-Sokullu_Pasa_Hotel-Istanbul.html",
+      "reviews": 362,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g293974-d4986307-Reviews-Hotel_Black_Tulip-Istanbul.html",
+      "reviews": 149,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g293980-d3825473-Reviews-Be_City_Hotel_Eilat_Marrakech-Eilat_Southern_District.html",
+      "reviews": 32,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g293986-d1231862-Reviews-Granada_Hotel-Amman_Amman_Governorate.html",
+      "reviews": 32,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g293997-d4089901-Reviews-Tulip_Inn_Bahrain_Suites_and_Residences-Manama.html",
+      "reviews": 48,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g294197-d12707649-Reviews-Novotel_Suites_Ambassador_Seoul_Yongsan-Seoul.html",
+      "reviews": 38,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g294207-d1474205-Reviews-The_King_Post-Nairobi.html",
+      "reviews": 71,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g294220-d300598-Reviews-Grand_Metropark_Hotel_Nanjing-Nanjing_Jiangsu.html",
+      "reviews": 37,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g294254-d662639-Reviews-Oceana_Beach_Resort-Puerto_Galera_Oriental_Mindoro_Province_Mindoro.html",
+      "reviews": 39,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g294478-d1201130-Reviews-Hotel_Villa_Fontana_Managua-Managua_Managua_Department.html",
+      "reviews": 214,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g295110-d6681754-Reviews-Hotel_De_KOKA-Skopje_Skopje_Region.html",
+      "reviews": 182,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g295366-d1003259-Reviews-La_Villa_Serena-Antigua_Sacatepequez_Department.html",
+      "reviews": 117,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g295366-d2248238-Reviews-The_Terrace_Hostel-Antigua_Sacatepequez_Department.html",
+      "reviews": 261,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g295366-d8465684-Reviews-Nina_Boutique_Hotel-Antigua_Sacatepequez_Department.html",
+      "reviews": 37,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g295388-d1222889-Reviews-Motel_Emen-Mostar_Herzegovina_Neretva_Canton.html",
+      "reviews": 123,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g295388-d302856-Reviews-Hotel_Ero-Mostar_Herzegovina_Neretva_Canton.html",
+      "reviews": 43,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g295394-d2027597-Reviews-Casa_Albert-Brasov_Brasov_County_Central_Romania_Transylvania.html",
+      "reviews": 149,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g29693-d97465-Reviews-Econo_Lodge-Alliance_Nebraska.html",
+      "reviews": 60,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g297407-d2169907-Reviews-Xiamen_Tegoo_Hotel-Xiamen_Fujian.html",
+      "reviews": 44,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g297463-d1203463-Reviews-The_Loft_Design_Hostel-Chengdu_Sichuan.html",
+      "reviews": 90,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g297479-d3544365-Reviews-Kolibri_Hostel_Pereira-Pereira_Risaralda_Department.html",
+      "reviews": 92,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g297484-d3701964-Reviews-Drop_Bear_Hostel-Santa_Marta_Santa_Marta_District_Magdalena_Department.html",
+      "reviews": 39,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g297530-d1897303-Reviews-Casa_de_Nelly-San_Cristobal_Galapagos_Islands.html",
+      "reviews": 36,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g297549-d1588273-Reviews-Albatros_Aqua_Park_Resort-Hurghada_Red_Sea_and_Sinai.html",
+      "reviews": 206,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g297618-d10223198-Reviews-TLH_Forest_Way_Cottage-Manali_Manali_Tehsil_Kullu_District_Himachal_Pradesh.html",
+      "reviews": 56,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g297618-d3398458-Reviews-Gaur_and_Sons_Cottage_A_Wandertrails_Stay-Manali_Manali_Tehsil_Kullu_District_Himachal.html",
+      "reviews": 36,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g297628-d6472954-Reviews-Mango_Hotels_Prajwal-Bengaluru_Bangalore_District_Karnataka.html",
+      "reviews": 73,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g297629-d1463192-Reviews-Hunkal_Woods-Chikmagalur_Chikkamagaluru_District_Karnataka.html",
+      "reviews": 43,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g297637-d5313337-Reviews-Hotel_Gago_Inn-Thiruvananthapuram_Trivandrum_Thiruvananthapuram_District_Kerala.html",
+      "reviews": 76,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g297639-d11700422-Reviews-Sunview_Beach_Resort-Varkala_Thiruvananthapuram_District_Kerala.html",
+      "reviews": 70,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g297649-d1200615-Reviews-OYO_15199_Hotel_Shree_Maya-Aurangabad_Aurangabad_District_Maharashtra.html",
+      "reviews": 46,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g297654-d5109414-Reviews-Atmantan_Wellness_Resort-Pune_Pune_District_Maharashtra.html",
+      "reviews": 246,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g297667-d1402697-Reviews-Hotel_Bharat_Villas-Jaisalmer_Jaisalmer_District_Rajasthan.html",
+      "reviews": 292,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g297679-d3830297-Reviews-Astoria_Residency-Ooty_Udhagamandalam_The_Nilgiris_District_Tamil_Nadu.html",
+      "reviews": 339,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g297687-d2327267-Reviews-The_Central_Hotel-Dehradun_Dehradun_District_Uttarakhand.html",
+      "reviews": 44,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g297697-d1220427-Reviews-Jesen_Inn-Kuta_Kuta_District_Bali.html",
+      "reviews": 135,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g297704-d10820542-Reviews-West_Point_Hotel-Bandung_West_Java_Java.html",
+      "reviews": 45,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g297710-d1153460-Reviews-Regent_s_Park_Hotel-Malang_East_Java_Java.html",
+      "reviews": 35,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g297892-d3625876-Reviews-Doldam_Guesthouse-Seogwipo_Jeju_Island.html",
+      "reviews": 91,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g297896-d735865-Reviews-Beach_Haven_Guest_House-Galle_Galle_District_Southern_Province.html",
+      "reviews": 231,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g297968-d566505-Reviews-Gazipasa_Star_Hotel-Side_Manavgat_Turkish_Mediterranean_Coast.html",
+      "reviews": 669,
+      "chunks": 2
+    },
+    {
+      "hotel_id": "Hotel_Review-g298033-d1748073-Reviews-Marsyas_Hotel-Marmaris_Marmaris_District_Mugla_Province_Turkish_Aegean_Coast.html",
+      "reviews": 130,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g298211-d604496-Reviews-JR_Kyushu_Hotel_Kagoshima-Kagoshima_Kagoshima_Prefecture_Kyushu.html",
+      "reviews": 74,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g298303-d1393043-Reviews-Hotel_Royal_Penang-George_Town_Penang_Island_Penang.html",
+      "reviews": 535,
+      "chunks": 2
+    },
+    {
+      "hotel_id": "Hotel_Review-g298507-d14051363-Reviews-Art_Mir_Na_Nevskom-St_Petersburg_Northwestern_District.html",
+      "reviews": 55,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g29853-d94658-Reviews-Super_8_by_Wyndham_Aberdeen_Southern_Pines-Aberdeen_North_Carolina.html",
+      "reviews": 89,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g298548-d306479-Reviews-Dhahran_International_Hotel-Dhahran_Eastern_Province.html",
+      "reviews": 48,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g29976-d10006451-Reviews-Best_Western_Plus_Ardmore_Inn_Suites-Ardmore_Oklahoma.html",
+      "reviews": 149,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g30090-d223550-Reviews-Holiday_Inn_Express_Anderson-Anderson_South_Carolina.html",
+      "reviews": 94,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g30341-d3523363-Reviews-Ashland_Motel-Ashland_Wisconsin.html",
+      "reviews": 43,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g303506-d6953238-Reviews-021_Hostel-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html",
+      "reviews": 41,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g303827-d1380695-Reviews-House_Samardzic-Plitvice_Lakes_National_Park_Central_Croatia.html",
+      "reviews": 39,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g303833-d578554-Reviews-Hotel_Monte_Mulini-Rovinj_Istria.html",
+      "reviews": 686,
+      "chunks": 2
+    },
+    {
+      "hotel_id": "Hotel_Review-g303838-d612334-Reviews-Hotel_Tragos-Trogir_Split_Dalmatia_County_Dalmatia.html",
+      "reviews": 134,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g303878-d1205939-Reviews-Hotel_Prince_Residency-Bhuj_Kutch_District_Gujarat.html",
+      "reviews": 48,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g303878-d15229455-Reviews-The_Fern_Residency_Bhuj-Bhuj_Kutch_District_Gujarat.html",
+      "reviews": 44,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g303907-d9607542-Reviews-Treechart_Hostel-Ko_Pha_Ngan_Surat_Thani_Province.html",
+      "reviews": 68,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g304013-d2062983-Reviews-Gite_Talassemtane-Chefchaouen_Tangier_Tetouan_Region.html",
+      "reviews": 31,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g304044-d318227-Reviews-DM_Hoteles_Nasca-Nazca_Ica_Region.html",
+      "reviews": 87,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g304138-d3358421-Reviews-Kandyan_Arts_Residency-Kandy_Kandy_District_Central_Province.html",
+      "reviews": 42,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g304140-d3365134-Reviews-Luxman_Guest_House-Polonnaruwa_North_Central_Province.html",
+      "reviews": 67,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g304551-d1022684-Reviews-Inn_at_Delhi-New_Delhi_National_Capital_Territory_of_Delhi.html",
+      "reviews": 176,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g304552-d455532-Reviews-Asia_The_Dawn-Shimla_Shimla_District_Himachal_Pradesh.html",
+      "reviews": 62,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g304556-d1144104-Reviews-Esthell_Continental_Hotel-Chennai_Madras_Chennai_District_Tamil_Nadu.html",
+      "reviews": 67,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g304556-d1453643-Reviews-Malles_Manotaa-Chennai_Madras_Chennai_District_Tamil_Nadu.html",
+      "reviews": 138,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g304556-d299516-Reviews-Ambica_Empire-Chennai_Madras_Chennai_District_Tamil_Nadu.html",
+      "reviews": 176,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g304556-d8282739-Reviews-Pebbles_Serviced_Apartments-Chennai_Madras_Chennai_District_Tamil_Nadu.html",
+      "reviews": 46,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g304558-d2373635-Reviews-Relax_Inn-Kolkata_Calcutta_Kolkata_District_West_Bengal.html",
+      "reviews": 86,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g30477-d230201-Reviews-Quality_Inn_Decatur-Decatur_Alabama.html",
+      "reviews": 99,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g306995-d1204529-Reviews-The_Rivasa_Resort-Calangute_North_Goa_District_Goa.html",
+      "reviews": 196,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g308272-d1368278-Reviews-Huana_Hotel_Style-Shanghai.html",
+      "reviews": 33,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g309226-d293018-Reviews-Tilajari_Hotel_Resort-La_Fortuna_de_San_Carlos_Arenal_Volcano_National_Park_Province_of.html",
+      "reviews": 299,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g309262-d3657597-Reviews-Coconut_Love_Beach_House-Cahuita_Province_of_Limon.html",
+      "reviews": 60,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g309271-d1026144-Reviews-Zephyr_Palace_Luxury_Rental_Mansion-Jaco_Jaco_District_Garabito_Municipality_Province_.html",
+      "reviews": 112,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g309284-d8325468-Reviews-Lunas_Hostel-Puerto_Jimenez_Osa_Peninsula_Province_of_Puntarenas.html",
+      "reviews": 32,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g309706-d784422-Reviews-Aitutaki_Beach_Villas-Aitutaki_Southern_Cook_Islands.html",
+      "reviews": 139,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g31030-d253173-Reviews-Inn_at_Creek_Street-Ketchikan_Alaska.html",
+      "reviews": 391,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g311304-d5508394-Reviews-Sapa_Lakeview_Hotel-Sapa_Lao_Cai_Province.html",
+      "reviews": 32,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g31136-d1544727-Reviews-Northern_Guest_House-Talkeetna_Alaska.html",
+      "reviews": 174,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g312558-d2284708-Reviews-Bliss_on_Beacon_Isle-Plettenberg_Bay_Western_Cape.html",
+      "reviews": 86,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g312559-d1742210-Reviews-The_Hub_Boutique_Hotel-Port_Elizabeth_Eastern_Cape.html",
+      "reviews": 146,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g312583-d10622440-Reviews-Nouveau_Studios-Pretoria_Gauteng.html",
+      "reviews": 36,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g31259-d295737-Reviews-Holiday_Inn_Express_Hotel_Suites_Kingman-Kingman_Arizona.html",
+      "reviews": 249,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g312624-d488587-Reviews-Protea_Hotel_Polokwane_Landmark-Polokwane_Limpopo_Province.html",
+      "reviews": 54,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g312639-d2048555-Reviews-Country_Lane_Lodge-White_River_Mpumalanga.html",
+      "reviews": 136,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g312667-d1490076-Reviews-Old_Mill_Country_Lodge_Restaurant-Oudtshoorn_Western_Cape.html",
+      "reviews": 403,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g312721-d241757-Reviews-Ibis_Porto_Sul_Europarque-Santa_Maria_da_Feira_Aveiro_District_Northern_Portugal.html",
+      "reviews": 30,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g31350-d115496-Reviews-Motel_6_Scottsdale-Scottsdale_Arizona.html",
+      "reviews": 161,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g3135196-d2667116-Reviews-The_Humpback_Turtle-El_Valle_Bahia_Solano_Choco_Department.html",
+      "reviews": 80,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g3135628-d117977-Reviews-Hibiscus_Coffee_and_Guesthouse-Grayton_Beach_Santa_Rosa_Beach_Florida.html",
+      "reviews": 273,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g313832-d12139268-Reviews-Free_Cerveza-Santa_Cruz_La_Laguna_Lake_Atitlan_Solola_Department_Western_Highlands.html",
+      "reviews": 131,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g31405-d5979514-Reviews-My_Place_Suites-Wickenburg_Arizona.html",
+      "reviews": 163,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g31418-d1639072-Reviews-Westwind_RV_Golf_Resort-Yuma_Arizona.html",
+      "reviews": 63,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g315771-d316438-Reviews-Posada_Schumann-San_Marcos_La_Laguna_Lake_Atitlan_Solola_Department_Western_Highlands.html",
+      "reviews": 60,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g316000-d1854141-Reviews-Stables_Guest_House-Newton_Stewart_Dumfries_and_Galloway_Scotland.html",
+      "reviews": 91,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g317059-d1933254-Reviews-Taye_Belay_Hotel-Gonder_Amhara_Region.html",
+      "reviews": 155,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g317124-d6105485-Reviews-Limketkai_Luxe_Hotel-Cagayan_de_Oro_Misamis_Oriental_Province_Mindanao.html",
+      "reviews": 344,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g31802-d1025936-Reviews-Pinewood_Cabins-Mountain_View_Arkansas.html",
+      "reviews": 111,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g318870-d579705-Reviews-Strazhite_Hotel-Bansko_Blagoevgrad_Province.html",
+      "reviews": 298,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g319729-d8118197-Reviews-Treebo_Trend_Raj_Garden-Pushkar_Ajmer_District_Rajasthan.html",
+      "reviews": 144,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g319812-d568733-Reviews-The_White_Stag-Strathyre_Loch_Lomond_and_The_Trossachs_National_Park_Scotland.html",
+      "reviews": 113,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g32355-d1544326-Reviews-Kate_Stanton_Inn-Encinitas_California.html",
+      "reviews": 70,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g32414-d77045-Reviews-Motel_6_Fresno_Blackstone_North-Fresno_California.html",
+      "reviews": 30,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g32815-d1533909-Reviews-Holiday_Inn_Oceanside_Camp_Pendleton_Area-Oceanside_California.html",
+      "reviews": 427,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g32848-d13202541-Reviews-Home2_Suites_by_Hilton_Palmdale-Palmdale_California.html",
+      "reviews": 87,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g32897-d79305-Reviews-Best_Western_Plus_Anaheim_Orange_County_Hotel-Placentia_California.html",
+      "reviews": 508,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g33039-d1439619-Reviews-San_Simeon_Lodge-San_Simeon_San_Luis_Obispo_County_California.html",
+      "reviews": 737,
+      "chunks": 2
+    },
+    {
+      "hotel_id": "Hotel_Review-g33045-d81889-Reviews-Avania_Inn_of_Santa_Barbara-Santa_Barbara_California.html",
+      "reviews": 516,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g33062-d117825-Reviews-The_Gables_Inn_Sausalito-Sausalito_Marin_County_California.html",
+      "reviews": 331,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g33327-d74352-Reviews-The_Bivvi_Hostel-Breckenridge_Colorado.html",
+      "reviews": 217,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g3348959-d3544273-Reviews-Nice_Place-Arugam_Bay_Eastern_Province.html",
+      "reviews": 106,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g3348959-d8471264-Reviews-Etnico_Surf_Resort-Arugam_Bay_Eastern_Province.html",
+      "reviews": 33,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g33838-d83677-Reviews-Hampton_Inn_Milford-Milford_Connecticut.html",
+      "reviews": 822,
+      "chunks": 2
+    },
+    {
+      "hotel_id": "Hotel_Review-g34008-d574783-Reviews-Adams_Ocean_Front_Resort_Motel_and_Villas-Dewey_Beach_Delaware.html",
+      "reviews": 132,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g34048-d251128-Reviews-The_Bellmoor_Inn_and_Spa-Rehoboth_Beach_Delaware.html",
+      "reviews": 2228,
+      "chunks": 4
+    },
+    {
+      "hotel_id": "Hotel_Review-g34088-d113345-Reviews-Boca_Raton_Resort_A_Waldorf_Astoria_Resort-Boca_Raton_Florida.html",
+      "reviews": 3862,
+      "chunks": 9
+    },
+    {
+      "hotel_id": "Hotel_Review-g34188-d1421576-Reviews-Rainbow_Rivers_Club-Dunnellon_Florida.html",
+      "reviews": 41,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g34227-d658123-Reviews-W_Fort_Lauderdale-Fort_Lauderdale_Broward_County_Florida.html",
+      "reviews": 570,
+      "chunks": 2
+    },
+    {
+      "hotel_id": "Hotel_Review-g34242-d86702-Reviews-Holiday_Inn_Gainesville_University_Center-Gainesville_Florida.html",
+      "reviews": 450,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g34352-d1210925-Reviews-Westgate_Town_Center_Resort_Spa-Kissimmee_Florida.html",
+      "reviews": 1527,
+      "chunks": 4
+    },
+    {
+      "hotel_id": "Hotel_Review-g34352-d1224025-Reviews-Orlando_Sun_Resort_Convention_Center-Kissimmee_Florida.html",
+      "reviews": 49,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g34379-d1465222-Reviews-Holiday_Inn_Express_Hotel_Suites_Largo_Clearwater-Largo_Florida.html",
+      "reviews": 249,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g34467-d85224-Reviews-Park_Shore_Resort-Naples_Florida.html",
+      "reviews": 357,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g34515-d218936-Reviews-Marriott_s_Sabal_Palms-Orlando_Florida.html",
+      "reviews": 357,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g34550-d226823-Reviews-Comfort_Inn_Pensacola_N_Davis_Hwy-Pensacola_Florida.html",
+      "reviews": 466,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g34618-d12882344-Reviews-Art_Ovation_Hotel_Autograph_Collection-Sarasota_Florida.html",
+      "reviews": 185,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g34678-d85893-Reviews-Sheraton_Tampa_Brandon_Hotel-Tampa_Florida.html",
+      "reviews": 872,
+      "chunks": 2
+    },
+    {
+      "hotel_id": "Hotel_Review-g34693-d1820448-Reviews-Beachside_Resort_Motel-Treasure_Island_Florida.html",
+      "reviews": 129,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g34693-d547902-Reviews-Delacado_on_Treasure_Island-Treasure_Island_Florida.html",
+      "reviews": 35,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g34760-d1588456-Reviews-Holiday_Inn_Express_Hotel_Suites_Bainbridge-Bainbridge_Georgia.html",
+      "reviews": 101,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g34856-d227153-Reviews-Fairfield_Inn_Suites_Atlanta_Airport_South_Sullivan_Road-College_Park_Georgia.html",
+      "reviews": 356,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g36076-d79143-Reviews-FairBridge_Inn_Express_at_Windsor_Oaks-Grayville_Illinois.html",
+      "reviews": 66,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g36467-d90452-Reviews-Quality_Inn_O_Fallon-O_Fallon_Illinois.html",
+      "reviews": 143,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g3721797-d10523650-Reviews-Hotel_Mount_Avenue-Ambalavayal_Wayanad_District_Kerala.html",
+      "reviews": 53,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g37719-d729440-Reviews-Catfish_Bend_Inn_Spa-Burlington_Iowa.html",
+      "reviews": 140,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g37853-d1103845-Reviews-Canfield_Hotel-Dubuque_Iowa.html",
+      "reviews": 35,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g39495-d235205-Reviews-Country_Inn_Suites_by_Radisson_Cincinnati_Airport_KY-Hebron_Kentucky.html",
+      "reviews": 821,
+      "chunks": 2
+    },
+    {
+      "hotel_id": "Hotel_Review-g40050-d114795-Reviews-Maison_des_Amis-Breaux_Bridge_Louisiana.html",
+      "reviews": 49,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g41636-d503478-Reviews-Rodeway_Inn_Lee-Lee_Massachusetts.html",
+      "reviews": 93,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g424993-d325156-Reviews-Manoir_d_Hautegente-Coly_Dordogne_Nouvelle_Aquitaine.html",
+      "reviews": 84,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g425088-d4137778-Reviews-Camping_Huttopia_Noirmoutier-Noirmoutier_en_l_Ile_Ile_de_Noirmoutier_Vendee_Pays_de_la.html",
+      "reviews": 39,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g42658-d121133-Reviews-Microtel_Inn_Suites_by_Wyndham_Roseville_Detroit_Area-Roseville_Michigan.html",
+      "reviews": 497,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g42809-d259285-Reviews-Super_8_by_Wyndham_West_Branch-West_Branch_Michigan.html",
+      "reviews": 556,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g43333-d76996-Reviews-Super_8_by_Wyndham_Monticello-Monticello_Minnesota.html",
+      "reviews": 419,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g43345-d1413481-Reviews-Holiday_Inn_Express_Suites_Mountain_Iron-Mountain_Iron_Minnesota.html",
+      "reviews": 149,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g44030-d223471-Reviews-Holiday_Inn_Express_Hotel_Suites_Starkville-Starkville_Mississippi.html",
+      "reviews": 122,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g44201-d118615-Reviews-Sleep_Inn_Suites_Lake_of_the_Ozarks-Camdenton_Lake_of_the_Ozarks_Missouri.html",
+      "reviews": 127,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g44201-d1645727-Reviews-Lake_Breeze_Resort-Camdenton_Lake_of_the_Ozarks_Missouri.html",
+      "reviews": 155,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g44536-d96425-Reviews-Econo_Lodge-Kearney_Missouri.html",
+      "reviews": 90,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g45325-d736061-Reviews-Blue_Sky_Cabins-Red_Lodge_Montana.html",
+      "reviews": 105,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g45916-d613067-Reviews-Hampton_Inn_York-York_Nebraska.html",
+      "reviews": 355,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g46004-d75446-Reviews-Tahoe_Summit_Village-Stateline_Lake_Tahoe_Nevada_Nevada.html",
+      "reviews": 81,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g46026-d645768-Reviews-The_Highlands_Inn-Bethlehem_New_Hampshire.html",
+      "reviews": 100,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g46052-d14940358-Reviews-The_Hotel_Concord-Concord_New_Hampshire.html",
+      "reviews": 30,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g46795-d92582-Reviews-Hotel_Runnemede_Philadelphia-Runnemede_New_Jersey.html",
+      "reviews": 180,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g47167-d113704-Reviews-Adobe_and_Pines_Inn_B_B-Ranchos_De_Taos_Taos_Taos_County_New_Mexico.html",
+      "reviews": 802,
+      "chunks": 2
+    },
+    {
+      "hotel_id": "Hotel_Review-g471856-d471876-Reviews-Kapama_Buffalo_Camp-Kapama_Private_Game_Reserve_Kruger_National_Park.html",
+      "reviews": 325,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g471858-d1440111-Reviews-AndBeyond_Ngala_Safari_Lodge-Ngala_Private_Game_Reserve_Kruger_National_Park.html",
+      "reviews": 546,
+      "chunks": 2
+    },
+    {
+      "hotel_id": "Hotel_Review-g479228-d6600154-Reviews-Anabezi_Luxury_Tented_Camp-Lower_Zambezi_National_Park_Lusaka_Province.html",
+      "reviews": 69,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g48016-d1142019-Reviews-Amber_Lantern_Motel_and_Cottages-Lake_George_New_York.html",
+      "reviews": 42,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g482941-d657107-Reviews-Lauda_Hotel-Oia_Santorini_Cyclades_South_Aegean.html",
+      "reviews": 65,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g48391-d679821-Reviews-Phoenicia_Lodge-Phoenicia_Catskill_Region_New_York.html",
+      "reviews": 144,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g488129-d471834-Reviews-Malindi_Guest_House-Stone_Town_Zanzibar_City_Zanzibar_Island_Zanzibar_Archipelago.html",
+      "reviews": 75,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g488138-d680922-Reviews-Hotel_Le_Commerce-Mirepoix_Ariege_Occitanie.html",
+      "reviews": 39,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g48914-d1778549-Reviews-Quality_Inn_Woodside-Woodside_Queens_New_York.html",
+      "reviews": 225,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g48937-d4306596-Reviews-Grandfather_Campground_RV_Resort-Banner_Elk_North_Carolina.html",
+      "reviews": 43,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g48979-d94015-Reviews-The_Pines_Country_Inn-Brevard_North_Carolina.html",
+      "reviews": 50,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g49206-d1053524-Reviews-Mountain_Inn_Suites_Airport-Hendersonville_North_Carolina.html",
+      "reviews": 267,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g494955-d615635-Reviews-Nuovo_Albergo_Russo-Trapani_Province_of_Trapani_Sicily.html",
+      "reviews": 36,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g494960-d530119-Reviews-Santa_Rosa-Lloret_de_Mar_Costa_Brava_Province_of_Girona_Catalonia.html",
+      "reviews": 60,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g499086-d7208376-Reviews-Hotel_Spa_Diamant_Residence-Sunny_Beach_Burgas_Province.html",
+      "reviews": 142,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g499155-d8018143-Reviews-Mill_Bay_Shores_Bed_and_Breakfast-Mill_Bay_Vancouver_Island_British_Columbia.html",
+      "reviews": 41,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g499391-d1597614-Reviews-Canalta_Hotel_Weyburn-Weyburn_Saskatchewan.html",
+      "reviews": 128,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g499453-d6585428-Reviews-Casa_Marlene-Valladolid_Yucatan_Peninsula.html",
+      "reviews": 146,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g499554-d295065-Reviews-The_Strands_Inn_Strands_Brewery-Nether_Wasdale_Lake_District_Cumbria_England.html",
+      "reviews": 388,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g499581-d615793-Reviews-The_Plough_Inn-Hathersage_Hope_Valley_Peak_District_National_Park_England.html",
+      "reviews": 425,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g499630-d2153505-Reviews-Barcaldine_Country_Motor_Inn-Barcaldine_Queensland.html",
+      "reviews": 202,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g499632-d1767058-Reviews-Raintree_Motel_Biloela-Biloela_Queensland.html",
+      "reviews": 31,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g503700-d1867207-Reviews-Champak_Bungalow_Pachmarhi-Pachmarhi_Hoshangabad_District_Madhya_Pradesh.html",
+      "reviews": 131,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g503726-d6963258-Reviews-Fakenham_Fairways-Fakenham_Norfolk_East_Anglia_England.html",
+      "reviews": 61,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g503891-d4818510-Reviews-White_Cottage_B_B-Seaview_Isle_of_Wight_England.html",
+      "reviews": 58,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g503900-d2313210-Reviews-The_Five_Bells-Deal_Kent_England.html",
+      "reviews": 182,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g503925-d275422-Reviews-Travelodge_Manchester_Birch_M62_Eastbound-Birch_Lancashire_England.html",
+      "reviews": 213,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g504012-d2253739-Reviews-The_Grosvenor_Hotel-Robin_Hoods_Bay_North_York_Moors_National_Park_North_Yorkshire_Eng.html",
+      "reviews": 217,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g504032-d630647-Reviews-The_Oaks_Hotel-Alnwick_Northumberland_England.html",
+      "reviews": 356,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g504040-d1383140-Reviews-Tillmouth_Old_School_House_B_B-Cornhill_on_Tweed_Northumberland_England.html",
+      "reviews": 58,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g504056-d1066035-Reviews-Hethpool_House_Bed_Breakfast-Wooler_Northumberland_England.html",
+      "reviews": 85,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g504115-d2002442-Reviews-The_Bower_Inn-Bridgwater_Somerset_England.html",
+      "reviews": 441,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g51885-d101949-Reviews-Salishan_Resort-Gleneden_Beach_Oregon.html",
+      "reviews": 194,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g52033-d1741205-Reviews-Worldmark_Eagle_Crest-Redmond_Central_Oregon_Oregon.html",
+      "reviews": 142,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g52224-d250954-Reviews-Springfield_House_Bed_and_Breakfast-Boalsburg_Pennsylvania.html",
+      "reviews": 104,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g528923-d4951901-Reviews-Surveyor_General_Inn-Berrima_Southern_Highlands_New_South_Wales.html",
+      "reviews": 75,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g528956-d255891-Reviews-Waterview_Gosford_Motor_Inn-Gosford_New_South_Wales.html",
+      "reviews": 115,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g528968-d1634241-Reviews-Ceespray_on_Owen-Huskisson_Jervis_Bay_Shoalhaven_New_South_Wales.html",
+      "reviews": 130,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g529003-d811969-Reviews-Murwillumbah_Motor_Inn-Murwillumbah_New_South_Wales.html",
+      "reviews": 118,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g53156-d217140-Reviews-La_Quinta_Inn_Suites_Mechanicsburg_Harrisburg-Mechanicsburg_Pennsylvania.html",
+      "reviews": 161,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g53464-d102168-Reviews-Hampton_Inn_Plymouth_Meeting-Plymouth_Meeting_Pennsylvania.html",
+      "reviews": 606,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g54359-d103724-Reviews-SeaGlass_Tower-Myrtle_Beach_South_Carolina.html",
+      "reviews": 377,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g54359-d97488-Reviews-DoubleTree_Resort_by_Hilton_Myrtle_Beach_Oceanfront-Myrtle_Beach_South_Carolina.html",
+      "reviews": 3278,
+      "chunks": 7
+    },
+    {
+      "hotel_id": "Hotel_Review-g54422-d1947239-Reviews-Quality_Inn_St_Helena-Saint_Helena_Island_South_Carolina.html",
+      "reviews": 109,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g54805-d104390-Reviews-Comfort_Suites-Sioux_Falls_South_Dakota.html",
+      "reviews": 193,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g551521-d4339612-Reviews-Mary_Joe_s_B_B-Inishmore_Aran_Islands_County_Galway_Western_Ireland.html",
+      "reviews": 184,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g551875-d566380-Reviews-Dunvegan_Hotel-Dunvegan_Isle_of_Skye_The_Hebrides_Scotland.html",
+      "reviews": 134,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g551883-d1108804-Reviews-Dun_Eighre-Portree_Isle_of_Skye_The_Hebrides_Scotland.html",
+      "reviews": 30,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g551935-d1484872-Reviews-Drymen_Camping-Drymen_Loch_Lomond_and_The_Trossachs_National_Park_Scotland.html",
+      "reviews": 46,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g55197-d105281-Reviews-Comfort_Inn_Downtown-Memphis_Tennessee.html",
+      "reviews": 988,
+      "chunks": 2
+    },
+    {
+      "hotel_id": "Hotel_Review-g552114-d256630-Reviews-Rydges_Parramatta-Rosehill_Parramatta_Greater_Sydney_New_South_Wales.html",
+      "reviews": 758,
+      "chunks": 2
+    },
+    {
+      "hotel_id": "Hotel_Review-g55711-d109453-Reviews-Motel_6_Dallas_Northwest-Dallas_Texas.html",
+      "reviews": 50,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g55711-d98685-Reviews-Stay_Express_Inn_Dallas_Fair_Park_Downtown-Dallas_Texas.html",
+      "reviews": 69,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g55856-d659454-Reviews-Atrium_West_Inn_Hotel_Suites-Fort_Stockton_Texas.html",
+      "reviews": 48,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g55857-d223888-Reviews-Courtyard_Fort_Worth_Downtown_Blackstone-Fort_Worth_Texas.html",
+      "reviews": 454,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g55876-d142020-Reviews-Quality_Inn_Gainesville-Gainesville_Texas.html",
+      "reviews": 33,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g55942-d1026890-Reviews-Americas_Best_Value_Inn-Gun_Barrel_City_Texas.html",
+      "reviews": 173,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g56003-d107856-Reviews-La_Quinta_Inn_Suites_Houston_Galleria_Area-Houston_Texas.html",
+      "reviews": 628,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g56462-d105873-Reviews-Days_Inn_by_Wyndham_Plainview-Plainview_Texas.html",
+      "reviews": 121,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g56463-d106526-Reviews-Candlewood_Suites_Plano_Frisco-Plano_Texas.html",
+      "reviews": 96,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g56701-d10660416-Reviews-Courtyard_Houston_Springwoods_Village-Spring_Texas.html",
+      "reviews": 37,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g57302-d216238-Reviews-The_Trailside_Inn-Killington_Vermont.html",
+      "reviews": 242,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g57383-d100098-Reviews-Comfort_Inn_Trolley_Square-Rutland_Vermont.html",
+      "reviews": 379,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g57432-d115889-Reviews-Tucker_Hill_Inn-Waitsfield_Vermont.html",
+      "reviews": 144,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g57686-d590369-Reviews-Residence_Inn_by_Marriott_Dulles_Airport_at_Dulles_28_Centre-Dulles_Loudoun_County_Virgi.html",
+      "reviews": 260,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g57725-d110610-Reviews-Scottish_Inn-Fancy_Gap_Virginia.html",
+      "reviews": 106,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g57768-d224136-Reviews-Richmond_Marriott_Short_Pump-Glen_Allen_Virginia.html",
+      "reviews": 233,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g57768-d270567-Reviews-Days_Inn_by_Wyndham_Glen_Allen-Glen_Allen_Virginia.html",
+      "reviews": 240,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g580223-d585818-Reviews-Hotel_Al_Terra_di_Mare-Levanto_Italian_Riviera_Liguria.html",
+      "reviews": 181,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g58192-d110687-Reviews-Days_Inn_by_Wyndham_South_Hill-South_Hill_Mecklenburg_County_Virginia.html",
+      "reviews": 206,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g58466-d225902-Reviews-Extended_Stay_America_Seattle_Everett_Silverlake-Everett_Washington.html",
+      "reviews": 108,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g59857-d634587-Reviews-Victorian_Village_Resort-Elkhart_Lake_Wisconsin.html",
+      "reviews": 113,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g60182-d223834-Reviews-Milwaukee_Marriott_West-Pewaukee_Wisconsin.html",
+      "reviews": 330,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g60373-d1644052-Reviews-Forty_Winks_Inn-Wauwatosa_Wisconsin.html",
+      "reviews": 46,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g60503-d101241-Reviews-Super_8_by_Wyndham_Laramie-Laramie_Wyoming.html",
+      "reviews": 262,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g60510-d582394-Reviews-Western_Motel-Lovell_Wyoming.html",
+      "reviews": 40,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g60709-d621304-Reviews-Hinckley_s_Dreamwood_Cabins-Bar_Harbor_Mount_Desert_Island_Maine.html",
+      "reviews": 172,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g60763-d224223-Reviews-Nyma_the_New_York_Manhattan_Hotel-New_York_City_New_York.html",
+      "reviews": 1558,
+      "chunks": 4
+    },
+    {
+      "hotel_id": "Hotel_Review-g60824-d110910-Reviews-Red_Roof_Inn_Fredericksburg_North-Fredericksburg_Virginia.html",
+      "reviews": 55,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g608471-d7604890-Reviews-Kalappura_Homestay-Alappuzha_Alappuzha_District_Kerala.html",
+      "reviews": 174,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g608474-d7250275-Reviews-Villa_San_Lawrenz-Lonavala_Pune_District_Maharashtra.html",
+      "reviews": 79,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g608490-d450848-Reviews-Puri_Lumbung_Cottages-Munduk_Bali.html",
+      "reviews": 243,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g608725-d482716-Reviews-Hotel_Concertino_Zlata_Husa-Jindrichuv_Hradec_South_Bohemian_Region_Bohemia.html",
+      "reviews": 37,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g60878-d3291041-Reviews-Crown_Inn-Seattle_Washington.html",
+      "reviews": 42,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g60880-d73860-Reviews-Long_House_Alaskan_Hotel-Anchorage_Alaska.html",
+      "reviews": 103,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g608834-d251205-Reviews-NH_Weinheim-Weinheim_Baden_Wurttemberg.html",
+      "reviews": 110,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g60885-d1026228-Reviews-Candlewood_Suites_Omaha_Airport-Omaha_Nebraska.html",
+      "reviews": 98,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g609159-d1773431-Reviews-Manukau_Heights_Motor_Lodge-Manukau_North_Island.html",
+      "reviews": 35,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g60922-d99931-Reviews-Ramada_by_Wyndham_Salt_Lake_City_Airport_Hotel-Salt_Lake_City_Utah.html",
+      "reviews": 518,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g60945-d125382-Reviews-Mary_s_Lake_Campground-Estes_Park_Colorado.html",
+      "reviews": 131,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g60982-d8423429-Reviews-Stay_Condominiums_Waikiki-Honolulu_Oahu_Hawaii.html",
+      "reviews": 55,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g61000-d248048-Reviews-Hodgdon_Meadow_Campground-Yosemite_National_Park_California.html",
+      "reviews": 69,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g616018-d2309182-Reviews-Kiwengwa_Bungalow_Boutique_Resort-Kiwengwa_Zanzibar_Island_Zanzibar_Archipelago.html",
+      "reviews": 57,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g6160502-d298679-Reviews-Joondalup_Resort-Connolly_Joondalup_Greater_Perth_Western_Australia.html",
+      "reviews": 294,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g616163-d1812416-Reviews-Electra_Syros-Hermoupolis_Syros_Cyclades_South_Aegean.html",
+      "reviews": 69,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g616290-d1477349-Reviews-Roots_Jungle_Retreat-Marigot_Saint_Andrew_Parish_Dominica.html",
+      "reviews": 131,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g635608-d6215171-Reviews-Aeolis_Santorini-Perissa_Santorini_Cyclades_South_Aegean.html",
+      "reviews": 71,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g635747-d1178685-Reviews-Hallmark_Guesthouse-Baga_North_Goa_District_Goa.html",
+      "reviews": 78,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g635755-d12272637-Reviews-Bodhi_Surf_Yoga_Camp-Uvita_Province_of_Puntarenas.html",
+      "reviews": 63,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g635926-d570028-Reviews-The_Swan-Fittleworth_West_Sussex_England.html",
+      "reviews": 235,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g641714-d2415199-Reviews-Coorg_Regency-Madikeri_Kodagu_Coorg_Karnataka.html",
+      "reviews": 41,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g642078-d251335-Reviews-Hotel_Clostermanns_Hof-Niederkassel_North_Rhine_Westphalia.html",
+      "reviews": 30,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g644047-d944891-Reviews-Sri_Gemunu_Beach_Resort-Unawatuna_Galle_District_Southern_Province.html",
+      "reviews": 232,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g644210-d2282416-Reviews-Ekati_Apartments-Stalis_Crete.html",
+      "reviews": 63,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g644219-d647703-Reviews-Zefiros_Beach_Hotel-Pythagorion_Samos_Northeast_Aegean_Islands.html",
+      "reviews": 32,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g644364-d1774759-Reviews-Stoneway_Guest_House-Bridgnorth_Shropshire_England.html",
+      "reviews": 242,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g644364-d8450402-Reviews-The_Woodberry_Inn-Bridgnorth_Shropshire_England.html",
+      "reviews": 99,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g652121-d7767277-Reviews-LABRANDA_Alyssa_Suite_Hotel-Playa_Blanca_Lanzarote_Canary_Islands.html",
+      "reviews": 770,
+      "chunks": 3
+    },
+    {
+      "hotel_id": "Hotel_Review-g652335-d640247-Reviews-Stayokay_Utrecht_Bunnik-Bunnik.html",
+      "reviews": 44,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g658263-d1233966-Reviews-Murite_Club_Hotel-Razlog_Blagoevgrad_Province.html",
+      "reviews": 245,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g658481-d1845538-Reviews-Redwood_Lodge-Methven_Canterbury_Region_South_Island.html",
+      "reviews": 67,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g659633-d291324-Reviews-Los_Zocos_Club_Resort-Costa_Teguise_Lanzarote_Canary_Islands.html",
+      "reviews": 2230,
+      "chunks": 7
+    },
+    {
+      "hotel_id": "Hotel_Review-g662326-d655438-Reviews-Dhevaraj_Hotel-Nan_Nan_Province.html",
+      "reviews": 39,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g662620-d615221-Reviews-Tagoo_Studios-Mykonos_Town_Mykonos_Cyclades_South_Aegean.html",
+      "reviews": 48,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g663107-d1017140-Reviews-Aquarius_Village_Hotel-Angistri_Saronic_Gulf_Islands_Attica.html",
+      "reviews": 51,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g663145-d576641-Reviews-Mendi_Hotel-Kalandra_Kassandra_Halkidiki_Region_Central_Macedonia.html",
+      "reviews": 67,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g670101-d1772125-Reviews-Anna_Hotel-Pefkohori_Kassandra_Halkidiki_Region_Central_Macedonia.html",
+      "reviews": 350,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g670539-d499850-Reviews-Tassos_Apartments-Acharavi_Corfu_Ionian_Islands.html",
+      "reviews": 98,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g673815-d647419-Reviews-Centre_Bethanie-Kibuye_Western_Province.html",
+      "reviews": 71,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g681198-d1468687-Reviews-Tudor_House_Hotel_and_Restaurant-Market_Drayton_Shropshire_England.html",
+      "reviews": 104,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g6864100-d666035-Reviews-Lower_Yelland_Farm-Yelland_Barnstaple_Devon_England.html",
+      "reviews": 170,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g729351-d1977150-Reviews-Rajabori_Villas_Resort-Kratie_Kratie_Province.html",
+      "reviews": 108,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g815198-d815138-Reviews-Seerose_Resort_Spa-Meisterschwanden_Canton_of_Aargau.html",
+      "reviews": 83,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g8572746-d263546-Reviews-Billabong_Gardens-Newtown_New_South_Wales.html",
+      "reviews": 148,
+      "chunks": 1
+    },
+    {
+      "hotel_id": "Hotel_Review-g946502-d2558108-Reviews-Hotel_Mision_Catavina-Catavina_Ensenada_Municipality_Baja_California.html",
+      "reviews": 98,
+      "chunks": 1
+    }
+  ],
+  "input_zip": "/mnt/data/full_dossiers.zip",
+  "input_zip_sha256": "64afad27c3cba6f078014d594342cba0075f06f8dc525cf547970627297913b8",
+  "rubric_sha256": "6b8d1cca4c7a1a88f26d5c0d0a7c74a0cb8b8ecfedc7efb0b4798d804128d506",
+  "runner_version": "1.0.0"
+}

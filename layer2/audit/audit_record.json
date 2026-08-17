@@ -1,0 +1,30 @@
+{
+  "execution_timestamp_utc": "2026-08-17T03:48:05.789007+00:00",
+  "execution_mode": "GPT-5.6 Luna via Codex using ChatGPT-managed authentication",
+  "assessment_model": "gpt-5.6-luna",
+  "external_llm_api_calls": 0,
+  "dataset": {
+    "hotels": 480,
+    "reviews": 100111
+  },
+  "workload": {
+    "layer2a_assessments": 549,
+    "layer2b_assessments": 480,
+    "total_logical_assessments": 1029
+  },
+  "dossier_ordering": "lexicographic source filename order",
+  "successful_hotels": 439,
+  "failed_hotels": 41,
+  "frozen_files": {
+    "rubric": "TrustStay_Layer2_Runtime_Rubric_v1_4_20260816.md",
+    "layer2a_prompt": "chunk_extraction.md",
+    "layer2b_prompt": "hotel_adjudication.md",
+    "chunk_schema": "chunk_ledger.schema.json",
+    "hotel_schema": "hotel_assessment.schema.json",
+    "display_mapping": "TrustStay_Display_Mapping_v1_0_20260816.json"
+  },
+  "orchestration_changes": [
+    "Added codex_luna_adapter.py; frozen methodology files and source dossiers unchanged."
+  ],
+  "usage_metadata": "Codex CLI token totals are recorded per assessment where exposed; input/cached/output/reasoning breakdowns are null when the CLI does not expose them."
+}
