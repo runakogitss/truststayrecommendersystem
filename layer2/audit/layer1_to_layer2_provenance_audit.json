@@ -28,18 +28,28 @@
     "same_text_sha256_order": 480
   },
   "candidate_full_absa": {
-    "full_set_available": false,
-    "dossier_count": 0,
-    "unique_hotel_ids": 0,
-    "duplicate_hotel_ids": 0,
-    "exact_matches": 0,
-    "same_hotel_nonidentical": 0,
-    "canonicalized_json_matches": 0,
-    "layer2_hotels_missing_from_candidate": 480,
-    "candidate_hotels_absent_from_layer2": 0,
-    "total_review_evidence_records": 0,
-    "validation_status": "NOT RUN",
-    "note": "The expected full-ABSA directory is absent. Preserved full-ABSA artifacts are smoke tests only; FULL_ABSA_VALIDATION.md states the full refresh was not run."
+    "full_absa_run_supported_as_completed": true,
+    "full_dossier_set_available_for_hash_comparison": false,
+    "dossier_count": null,
+    "unique_hotel_ids": null,
+    "duplicate_hotel_ids": null,
+    "exact_matches": "NOT TESTABLE",
+    "same_hotel_nonidentical": "NOT TESTABLE",
+    "canonicalized_json_matches": "NOT TESTABLE",
+    "layer2_hotels_missing_from_candidate": null,
+    "candidate_hotels_absent_from_layer2": null,
+    "total_review_evidence_records": null,
+    "exact_match_to_layer2": "NOT TESTABLE",
+    "validation_status": "PASS WITH WARNINGS",
+    "validation_counts": {
+      "expected_rows": 100111,
+      "attempted_rows": 100111,
+      "successful_inference_rows": 100111,
+      "full_dossiers_generated": 480,
+      "compact_dossiers_generated": 480,
+      "dossier_failures": 0
+    },
+    "note": "Separate preserved Layer 1 validation records show that the full DeBERTa ABSA refresh was completed successfully across all 100,111 reviews and generated 480 full dossiers. However, the exact historical 480 full-ABSA dossier files required for direct SHA-256 comparison were not available in the local candidate directory inspected during this cross-layer audit. Therefore, while the existence and completion of the full-ABSA refresh are supported, it cannot be established that the Layer 2 input dossiers are byte-identical to that specific preserved Layer 1 output set."
   },
   "content_difference_summary_against_original": {
     "material_difference": true,
@@ -69,7 +79,7 @@
       "layer2_sha256": "6f9ed66671536385420e6ed242599b85366ffc0a6c54ab8be37a611d9755fb54",
       "candidate_original_sha256": "ab9431be24ae1f515ffd753cae074b4463c9c52517b5730daf068433a1f2be19",
       "candidate_full_absa_sha256": null,
-      "match": "same hotel, non-identical to Candidate A; Candidate B unavailable"
+      "match": "same hotel, non-identical to Candidate A; Candidate B exact file not available for comparison"
     },
     {
       "hotel": "Gopeng Rainforest Resort",
@@ -77,7 +87,7 @@
       "layer2_sha256": "e57e63bf85a20f2af0acf74ac277bf529f5b7bdf7f885d9794b6b44276866554",
       "candidate_original_sha256": "236a22f15ccbf7e49b65d8cbfedcd3d513a5ee0d007bd0caf9f5d4a072bf93ea",
       "candidate_full_absa_sha256": null,
-      "match": "same hotel, non-identical to Candidate A; Candidate B unavailable"
+      "match": "same hotel, non-identical to Candidate A; Candidate B exact file not available for comparison"
     },
     {
       "hotel": "Comfort Suites, Sioux Falls",
@@ -85,7 +95,7 @@
       "layer2_sha256": "1eee56c8f3bd22278ace6d6003c0f34215708303b3187ea4f3de101abd10a8be",
       "candidate_original_sha256": "8c8ada8a43d751d49d6bc2bf81cc208163eb7d2f37567dd5ab7b12b691afe2a1",
       "candidate_full_absa_sha256": null,
-      "match": "same hotel, non-identical to Candidate A; Candidate B unavailable"
+      "match": "same hotel, non-identical to Candidate A; Candidate B exact file not available for comparison"
     },
     {
       "hotel": "Quality Inn O'Fallon",
@@ -93,7 +103,7 @@
       "layer2_sha256": "c09b06dfb9cac2bd9a60bc8289e076f7389aa1ab379b5c50df719b7cb0c6bda6",
       "candidate_original_sha256": "425de4030c53994ef4ee312c4d3acb10f0096b78c764ffb11ef7d6c259c19ba5",
       "candidate_full_absa_sha256": null,
-      "match": "same hotel, non-identical to Candidate A; Candidate B unavailable"
+      "match": "same hotel, non-identical to Candidate A; Candidate B exact file not available for comparison"
     },
     {
       "hotel": "Long Ji One Hotel",
@@ -101,9 +111,9 @@
       "layer2_sha256": "8461f9f7e677916536cd98d4a4f0d6989a201b90aad60d8d52ecca5d27d751af",
       "candidate_original_sha256": "8f196972c3839c93645c0e5db55760a9ac9286af53ca4bc874bc2e333dac6b59",
       "candidate_full_absa_sha256": null,
-      "match": "same hotel, non-identical to Candidate A; Candidate B unavailable"
+      "match": "same hotel, non-identical to Candidate A; Candidate B exact file not available for comparison"
     }
   ],
   "conclusion_code": "D",
-  "conclusion": "NOT ESTABLISHED FROM AVAILABLE ARTIFACTS: Layer 2 source dossiers do not exactly correspond to either preserved Layer 1 set. They are materially different from the preserved original set, while the expected 480-dossier full-ABSA set is not present and its validation record states that the full refresh was not run."
+  "conclusion": "NOT ESTABLISHED FROM AVAILABLE ARTIFACTS: Separate preserved Layer 1 validation records support completion of the full DeBERTa ABSA refresh across all 100,111 reviews, with 480 full dossiers generated and 0 dossier failures. However, the exact historical 480 full-ABSA dossier files required for direct SHA-256 comparison were not available in the local candidate directory inspected during this audit. The Layer 2 dossiers are materially different from the preserved original set, and byte identity to the completed full-ABSA output set is not testable."
 }
