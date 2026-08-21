@@ -58,8 +58,8 @@ Therefore the Layer 2 dossier set is a materially different derived-data version
 
 ## Evidence created
 
-- [layer1_to_layer2_provenance_audit.json](</Users/ritchierunako/Downloads/layer 2 run /TrustStay_Layer2_GPT56_Luna_100K/layer1_to_layer2_provenance_audit.json>)
-- [layer1_to_layer2_provenance_audit.md](</Users/ritchierunako/Downloads/layer 2 run /TrustStay_Layer2_GPT56_Luna_100K/layer1_to_layer2_provenance_audit.md>)
+- [layer1_to_layer2_provenance_audit.json](./layer1_to_layer2_provenance_audit.json)
+- [layer1_to_layer2_provenance_audit.md](./layer1_to_layer2_provenance_audit.md)
 
 ## Safety confirmation
 

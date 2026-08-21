@@ -46,7 +46,7 @@
     },
     "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
     "python": "3.13.4 (tags/v3.13.4:8a526ec, Jun  3 2025, 17:46:04) [MSC v.1943 64 bit (AMD64)]",
-    "python_executable": "C:\\Users\\Reynard Runako\\Downloads\\TrustStay_Layer1_Professor_Handover_FINAL_v2_1_0_20260812\\TrustStay_Layer1_Reproducible_Evidence_Engine\\.venv\\Scripts\\python.exe",
+    "python_executable": "<redacted-local-python-executable>",
     "recorded_at_utc": "2026-08-12T14:40:19.836581+00:00",
     "system": "Windows-11-10.0.26200-SP0"
   },

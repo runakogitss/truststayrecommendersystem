@@ -1,8 +1,16 @@
 # Full DeBERTa ABSA Refresh Validation
 
+> **Historical preflight record.** The `NOT RUN` state below applies only to
+> the earlier implementation-time checkpoint represented by this file. The
+> subsequent production refresh was completed for all 100,111 reviews. The
+> authoritative completed record is
+> `outputs/frozen_research_run_full_absa/FULL_ABSA_VALIDATION.md`.
+
 **Execution state:** `NOT RUN`
 
-This is the implementation-time preflight record. The full 100,111-review inference was intentionally not executed. The runner will replace the report in `outputs/frozen_research_run_full_absa/FULL_ABSA_VALIDATION.md` after the professor's full CUDA run.
+At this historical checkpoint, the full 100,111-review inference had not yet
+been executed. This record is retained only to preserve the development
+sequence; it is not the current production status.
 
 Corrected adapter smoke result: `PASS WITH WARNINGS` on 8 reviews, with 8 successful inferences, 36 extracted aspect terms, 0 technical failures, and 0 frozen-cluster membership changes. The smoke contained 0 zero-aspect reviews naturally; this is not treated as a failure.
 

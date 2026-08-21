@@ -2,6 +2,10 @@
 
 This manifest describes the intentionally public, non-data-bearing package. No private production file was moved or modified.
 
+The private/self-contained professor handover is a separate data-bearing
+package. This public repository intentionally contains the reproducibility
+method and audit record without distributing review-bearing research data.
+
 ## Included
 
 ### Methodology

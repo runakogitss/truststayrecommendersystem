@@ -46,7 +46,7 @@
 *.zip
 
 # ---------------------------------------------------------------------------
-# 2. Safe validation / manifest records (KEEPED — evidence for reproducibility)
+# 2. Safe validation / manifest records (KEPT — evidence for reproducibility)
 # ---------------------------------------------------------------------------
 # Kept: validation/frozen_sample_validation.json, run_summary.json,
 #       dossier_validation.json, execution_record.json,

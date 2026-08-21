@@ -1,4 +1,9 @@
-# Frozen research sample
+# Frozen research sample — private handover layout
+
+The review-bearing files described below belong to the separate
+private/self-contained professor handover package. They are intentionally not
+committed to the public GitHub repository. This public directory retains only
+metadata documentation and `SOURCE_PROVENANCE.json`.
 
 This directory holds the complete, self-contained data for the frozen Layer 1
 research run. It is produced once by the researcher with:

@@ -1,5 +1,21 @@
 # Changelog
 
+## 2.1.0 final-submission clarification — 21 August 2026
+
+- Recorded the completed 480-hotel/100,111-review Layer 1 run instead of the
+  superseded pre-run status.
+- Recorded the completed full DeBERTa ABSA refresh: 100,111/100,111 successful
+  inference rows, 0 technical failures, 480 full dossiers and 480 compact
+  dossiers, with the frozen cluster invariant preserved.
+- Recorded the Layer 2 production outcome: 439 technically accepted hotels and
+  41 validator rejections.
+- Removed the obsolete pre-run GPU patch bundle from the live release, retained
+  its validation state as a clearly labelled historical preflight record, and
+  kept a current optional-rerun guide at the repository root.
+- Clarified the public-code/private-data boundary and scrubbed personal local
+  path strings from public audit metadata.
+- Revalidated the public repository: 48/48 tests passed on 21 August 2026.
+
 ## 2.0.0-frozen-research-run
 
 Restructured as a self-contained, examiner-rerunnable Layer 1 handover.

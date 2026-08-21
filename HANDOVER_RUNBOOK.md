@@ -1,5 +1,10 @@
 # TrustStay Layer 1 — examiner runbook
 
+This runbook applies to the separate private/self-contained professor handover
+package. The public GitHub repository intentionally excludes review-bearing
+frozen sample files, raw dossiers, and large derived data; a public clone alone
+is therefore not expected to execute the data-bearing handover steps.
+
 This assumes you can run Python. It assumes nothing about TrustStay.
 
 Everything you need is inside this folder. You do **not** need any external
@@ -48,7 +53,7 @@ enforces this in code.
 | `configs/` | frozen scientific settings and temporal windows |
 | `schemas/` | JSON schemas for review records and dossiers |
 | `tests/` | the automated test suite |
-| `data/frozen_research_sample/` | the complete frozen research sample (reviews, features, embeddings, review↔hotel mapping, sample definition, hashes) |
+| `data/frozen_research_sample/` | the complete frozen research sample in the private handover package (reviews, features, embeddings, review↔hotel mapping, sample definition, hashes) |
 | `outputs/frozen_research_run/` | where your rerun writes its results |
 | `archive/historical_development/` | earlier development material, retained for provenance only — **not used by anything in this runbook** |
 
@@ -62,7 +67,8 @@ re-executed by this rerun:
 * aspect-based sentiment analysis (recorded upstream as `yangheng/deberta-v3-base-absa-v1.1`);
 * sentence embeddings (recorded upstream as `sentence-transformers/all-MiniLM-L6-v2`).
 
-Their outputs are supplied in `data/frozen_research_sample/` as verified
+Their outputs are supplied in the private handover package under
+`data/frozen_research_sample/` as verified
 artefacts. Stated plainly:
 
 > **Model inference was performed upstream. The frozen handover reruns the
@@ -234,7 +240,7 @@ Every script exits non-zero with a printed reason. The usual causes:
 
 | Symptom | Cause |
 |---|---|
-| `Frozen research sample is incomplete` | `data/frozen_research_sample/` was not shipped or was not fully extracted |
+| `Frozen research sample is incomplete` | The private handover package was not supplied, or `data/frozen_research_sample/` was not fully extracted |
 | `hash verification FAILED` | a supplied file was modified or truncated in transit |
 | `Row-count mismatch` | the three row sets disagree; the sample must not be used |
 | `does not match review_text` | review text and its recorded hash disagree |

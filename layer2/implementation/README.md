@@ -113,6 +113,17 @@ The default is intentionally conservative. You can raise `--workers` if the prov
 
 Just run the same command again.
 
+Valid cached artifacts are revalidated before reuse, although the resume path
+performs a somewhat narrower set of explicit checks than fresh generation.
+Freshly generated Layer 2A ledgers receive schema, hotel/chunk identity,
+review-count, and cited-review-ID checks. A reused Layer 2A ledger is checked
+against its schema and cited review IDs, but the fresh-generation identity and
+chunk-count checks are not all repeated explicitly on the resume path.
+
+When an existing accepted assessment is reused, its qualitative payload is
+revalidated against the final schema and final semantic checks. Previously stored
+display fields are preserved on this skip-existing path; they are not regenerated.
+
 Completed hotel assessments and completed chunk ledgers are reused. Failed hotels are isolated in `failures.jsonl`.
 
 Use `--force` only when you intentionally want to regenerate existing outputs.
@@ -156,6 +167,22 @@ The runner checks:
 - band-to-label consistency;
 - recurrence requires multiple distinct concern review IDs;
 - C2/C3 requires evidence on distinct dates.
+
+## Validation scope and interpretation boundary
+
+Layer 2B receives the validated Layer 2A evidence ledgers plus hotel-level
+metadata and adjudicates using the frozen Layer 2B prompt and rubric. The final
+validator deterministically checks final cited review IDs against the original
+source dossier, along with the final schema and semantic constraints. It does
+not separately enforce that every final cited ID belongs to a separately
+computed union of IDs selected by Layer 2A; that could be considered a future
+hardening invariant, but it was not added to the completed production run.
+
+The preserved production result is 439 accepted hotels and 41 rejected hotels.
+Acceptance means passage through the implemented technical controls. It does
+not mean independent factual verification of the qualitative interpretation,
+independent human validation, detection of every possible LLM error, or a claim
+that TrustStay prevents hallucinations.
 
 The rubric says C2 requires distinct *periods* but does not freeze a numerical time-gap definition. The runner therefore does **not invent one**. It hard-checks distinct dates and raises a manual-review warning if cited C2/C3 evidence remains within one calendar month.
 

@@ -1,8 +1,0 @@
-# Install the repository's base requirements first. PyTorch is intentionally
-# not pinned here because the professor must install the CUDA-compatible
-# Windows wheel selected for the workstation.
--r requirements.txt
-
-transformers==5.12.1
-safetensors==0.8.0
-sentencepiece==0.2.0

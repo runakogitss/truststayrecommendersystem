@@ -2,7 +2,23 @@
 
 This package refreshes ABSA only. It never rebuilds the 100,111-review sample, MiniLM embeddings, or the frozen 83,686 semantic groups.
 
-The full run was **not executed on this machine**.
+## Production status
+
+The production full-ABSA run **was completed**. It processed all 100,111
+reviews successfully, recorded 0 technical inference failures, preserved all
+100,111 frozen cluster memberships, and generated 480 full plus 480 compact
+dossiers. The authoritative records are:
+
+```text
+outputs/frozen_research_run_full_absa/FULL_ABSA_VALIDATION.md
+outputs/frozen_research_run_full_absa/ABSA_INFERENCE_PROVENANCE.json
+outputs/frozen_research_run_full_absa/cluster_invariance_check.json
+```
+
+The instructions below are retained for an optional independent GPU rerun. They
+must not be read as saying that the original production execution is pending.
+They require the separately controlled private data-bearing handover; a public
+GitHub clone intentionally does not contain the review-level inputs.
 
 ## 1. Unzip and open PowerShell
 
@@ -68,7 +84,7 @@ type outputs\frozen_research_run_full_absa\smoke_test\ABSA_INFERENCE_PROVENANCE.
 
 The optional hotel lexicon in `configs\full_absa_aspects.yaml` only maps already-extracted raw terms to canonical categories. It never gates inference. A valid zero-aspect review is recorded as `success_no_aspects`, not as a technical failure.
 
-## 6. Run all 100,111 reviews
+## 6. Optionally rerun all 100,111 reviews
 
 ```powershell
 python scripts/run_full_absa_refresh.py --device cuda
@@ -115,4 +131,3 @@ MiniLM recomputed: false
 clustering recomputed: false
 proxy fallback: false
 ```
-

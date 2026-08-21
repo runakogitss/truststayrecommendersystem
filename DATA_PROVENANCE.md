@@ -2,22 +2,28 @@
 
 ## Evidence chain
 
+The public GitHub repository and the private/self-contained professor handover
+are intentionally different artifacts. The public repository preserves the
+method, code, metadata, validation summaries, and provenance needed to inspect
+the research record; the private handover carries the review-bearing frozen
+sample required for a fully self-contained rerun.
+
 ```text
 upstream locked HotelRec input          (researcher's machine, not shipped)
   → verified reusable feature index      (researcher's machine, not shipped)
   → verified MiniLM NPZ                  (researcher's machine, not shipped)
   → method-labelled ABSA outputs
         ↓  scripts/export_frozen_sample.py   [researcher, run once]
-  → data/frozen_research_sample/         (SHIPPED — self-contained)
+  → data/frozen_research_sample/         (private/self-contained handover package)
         ↓  scripts/run_handover.py            [examiner]
   → rubric-neutral evidence preparation
   → full and compact hotel evidence dossiers
 ```
 
-## What is shipped
+## What the private/self-contained package contains
 
-`data/frozen_research_sample/` contains exactly the rows required for the frozen
-research run and nothing else:
+The separately delivered private `data/frozen_research_sample/` contains exactly
+the rows required for the frozen research run and nothing else:
 
 | File | Contents |
 |---|---|
@@ -32,6 +38,25 @@ research run and nothing else:
 The upstream locked corpus is **not** shipped and is **not** required. The chain
 back to it is preserved by hash in `SOURCE_PROVENANCE.json`, so the sample's
 origin remains checkable without redistributing the corpus.
+
+## What the public GitHub repository contains
+
+The public checkout retains the metadata-only README and
+`SOURCE_PROVENANCE.json` under `data/frozen_research_sample/`, plus the Layer 1
+code, configs, schemas, methodology, safe validation records, provenance
+metadata, and Layer 2 public audit package. It intentionally excludes
+`reviews.parquet`, `features.parquet`, `embeddings.npz`, review-bearing dossiers,
+raw review text, review-bearing ZIP files, raw Layer 2 outputs, and credentials.
+Those exclusions are a privacy and reproducibility boundary, not a claim that
+the private handover sample never existed.
+
+## Historical execution metadata
+
+The private production provenance preserves the original machine-specific path
+strings. The public copies of the provenance and execution records replace
+path-only fields with repository-relative locations or explicit redaction
+markers. No model identity, hash, count, result or validation verdict is changed
+by this public-release hygiene step.
 
 ## Upstream model inference
 
